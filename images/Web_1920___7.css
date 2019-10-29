@@ -1,0 +1,1324 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 7;
+	--web-view-id: Web_1920___7;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920___7;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920___7 {
+	position: absolute;
+	box-sizing: border-box;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 6857px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 7;
+	--web-view-id: Web_1920___7;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+.Logo_ciba {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 56px;
+	left: 161px;
+	top: 13px;
+}
+.Asset_4 {
+	position: absolute;
+	overflow: visible;
+	width: 1732px;
+	height: 1228px;
+	left: -180px;
+	top: 1922px;
+}
+.Asset_4_A6_Rectangle_191 {
+	position: absolute;
+	overflow: visible;
+	width: 1641px;
+	height: 1164px;
+	left: 425px;
+	top: 268px;
+}
+#Entrepreneur__Foundation_Progr {
+	position: absolute;
+	left: 1155px;
+	top: 308px;
+	overflow: visible;
+	width: 701px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 111px;
+	color: rgba(0,0,0,1);
+}
+#a_silicon_valley_venture_ {
+	position: absolute;
+	left: 493px;
+	top: 244px;
+	overflow: visible;
+	width: 327px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#built_on_principles_of_12_Crit {
+	position: absolute;
+	left: 1163px;
+	top: 707px;
+	overflow: hidden;
+	width: 654px;
+	height: 99px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#Tabs {
+	position: absolute;
+	width: 946px;
+	height: 33px;
+	left: 99px;
+	top: 1112px;
+	overflow: visible;
+}
+#About_the_program {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(80,140,255,1);
+}
+#Program_Module {
+	position: absolute;
+	left: 283px;
+	top: 0px;
+	overflow: visible;
+	width: 194px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#Key_Highlights {
+	position: absolute;
+	left: 522px;
+	top: 0px;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#What_will_you_get {
+	position: absolute;
+	left: 737px;
+	top: 0px;
+	overflow: visible;
+	width: 210px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(0,0,0,1);
+}
+#Pricing_Card {
+	position: absolute;
+	width: 591px;
+	height: 761px;
+	left: 1171px;
+	top: 1210px;
+	overflow: visible;
+}
+.Rectangle_740 {
+	filter: drop-shadow(0px 5px 26px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 669px;
+	height: 839px;
+	left: 0px;
+	top: 0px;
+}
+#Course_starts_from {
+	position: absolute;
+	left: 61px;
+	top: 79px;
+	overflow: visible;
+	width: 296px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Workshops {
+	position: absolute;
+	left: 61px;
+	top: 299px;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Duration {
+	position: absolute;
+	left: 61px;
+	top: 195px;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Fees {
+	position: absolute;
+	left: 61px;
+	top: 443px;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#November_December_2019 {
+	position: absolute;
+	left: 61px;
+	top: 125px;
+	overflow: visible;
+	width: 399px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Fri__4pm_to_7pm__Sat__4pm_to_7 {
+	position: absolute;
+	left: 61px;
+	top: 345px;
+	overflow: visible;
+	width: 245px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#ID6_Weeks_ {
+	position: absolute;
+	left: 61px;
+	top: 241px;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#_exclusive_of_all_taxes {
+	position: absolute;
+	left: 61px;
+	top: 534px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	line-height: 240px;
+	margin-top: -112px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+#INR_25_000__ {
+	position: absolute;
+	left: 61px;
+	top: 489px;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(0,0,0,1);
+}
+#Course_Overview {
+	position: absolute;
+	width: 1516.405px;
+	height: 761px;
+	left: 99px;
+	top: 1210px;
+	overflow: visible;
+}
+#Course_Overview_A6_Text_297 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 541px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+#The_6_week_Entrepreneur_Founda {
+	position: absolute;
+	left: 0px;
+	top: 103px;
+	overflow: hidden;
+	width: 989px;
+	height: 658px;
+	line-height: 38px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(0,0,0,1);
+}
+#Component_11___4 {
+	position: absolute;
+	width: 297.405px;
+	height: 74.966px;
+	left: 1219px;
+	top: 585px;
+	overflow: visible;
+}
+#Component_13___1 {
+	position: absolute;
+	width: 297.405px;
+	height: 74.966px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.shape___bg {
+	filter: drop-shadow(0px 20px 30px rgba(0, 0, 29, 0.141));
+	position: absolute;
+	overflow: visible;
+	width: 387.405px;
+	height: 164.966px;
+	left: 0px;
+	top: 0px;
+}
+#Enroll_now {
+	position: absolute;
+	left: 53px;
+	top: 19px;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#About_US {
+	position: absolute;
+	width: 1663px;
+	height: 689px;
+	left: 99px;
+	top: 4063px;
+	overflow: visible;
+}
+#_About_CIBA__Centre_for_incuba {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 1664px;
+	height: 689px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 77px;
+	color: rgba(0,0,0,1);
+}
+#Who_is_it_for {
+	position: absolute;
+	width: 1496px;
+	height: 952px;
+	left: 99px;
+	top: 2099px;
+	overflow: visible;
+}
+.ID5d836555bb767 {
+	position: absolute;
+	overflow: visible;
+	width: 1035px;
+	height: 739px;
+	left: 267px;
+	top: 213px;
+}
+#__Working_Professionals__Entre {
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	overflow: visible;
+	width: 1497px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(34,34,34,1);
+}
+#Who_is_it_for_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 425px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+#Group_114 {
+	position: absolute;
+	width: 1920px;
+	height: 916px;
+	left: 0px;
+	top: 4885px;
+	overflow: visible;
+}
+.Rectangle_62 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 916px;
+	left: 0px;
+	top: 0px;
+}
+#Group_22 {
+	position: absolute;
+	width: 760px;
+	height: 664px;
+	left: 580.514px;
+	top: 76px;
+	overflow: visible;
+}
+#What_startups_say {
+	position: absolute;
+	left: 208px;
+	top: 0px;
+	overflow: visible;
+	width: 412px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(17,17,17,1);
+}
+#Group_21 {
+	position: absolute;
+	width: 760px;
+	height: 120px;
+	left: 0px;
+	top: 175px;
+	overflow: visible;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 322px;
+	top: 0px;
+}
+#Group {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_4 {
+	opacity: 0.33;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Group_A6_Group_142 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 160px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_5_A6_Ellipse_134 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_4_A6_Ellipse_135 {
+	opacity: 0.33;
+}
+.Ellipse_4_A6_Ellipse_135 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Group_A6_Group_143 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 322px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_5_A6_Ellipse_137 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_4_A6_Ellipse_138 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Group_A6_Group_144 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 480px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_5_A6_Ellipse_140 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_4_A6_Ellipse_141 {
+	opacity: 0.33;
+}
+.Ellipse_4_A6_Ellipse_141 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Group_A6_Group_145 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: 640px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_5_A6_Ellipse_143 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_4_A6_Ellipse_144 {
+	opacity: 0.33;
+}
+.Ellipse_4_A6_Ellipse_144 {
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+}
+#Lorem_ipsum_dolor_sit_amet__co {
+	position: absolute;
+	left: 96px;
+	top: 461px;
+	overflow: hidden;
+	width: 570px;
+	height: 93px;
+	line-height: 24px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(72,72,72,1);
+}
+#John_Doe {
+	position: absolute;
+	left: 316px;
+	top: 591px;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(17,17,17,1);
+}
+#CEO {
+	opacity: 0.8;
+	position: absolute;
+	left: 355px;
+	top: 632px;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(17,17,17,1);
+}
+.arrow_right {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 44px;
+	left: 1761px;
+	top: 436px;
+}
+.arrow_right_A6_Rectangle_200 {
+	width: 24px;
+	height: 44px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,135,436) rotate(180deg);
+	transform-origin: center;
+}
+#Newsletter {
+	position: absolute;
+	width: 1920px;
+	height: 200px;
+	left: 0px;
+	top: 5801px;
+	overflow: visible;
+}
+.Rectangle_65 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+}
+#Subscribe_to_our_newsletter {
+	position: absolute;
+	left: 135px;
+	top: 76px;
+	overflow: visible;
+	width: 459px;
+	white-space: nowrap;
+	line-height: 48px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,1);
+}
+.Path_658 {
+	overflow: visible;
+	position: absolute;
+	width: 373px;
+	height: 2px;
+	left: 1006.927px;
+	top: 119.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_659 {
+	overflow: visible;
+	position: absolute;
+	width: 205px;
+	height: 70px;
+	left: 1578px;
+	top: 75px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Sign_Up {
+	position: absolute;
+	left: 1636px;
+	top: 94px;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Contact_Us {
+	position: absolute;
+	width: 2205.171px;
+	height: 740px;
+	left: 128px;
+	top: 6095px;
+	overflow: visible;
+}
+.Path_660 {
+	overflow: visible;
+	position: absolute;
+	width: 205px;
+	height: 70px;
+	left: 0px;
+	top: 526px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contact_Us_A6_Text_309 {
+	position: absolute;
+	left: 728.665px;
+	top: 0px;
+	overflow: visible;
+	width: 245px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(17,17,17,1);
+}
+#Full_Name {
+	opacity: 0.7;
+	position: absolute;
+	left: 0px;
+	top: 115px;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,17,17,1);
+}
+#E_mail {
+	opacity: 0.7;
+	position: absolute;
+	left: 0px;
+	top: 188px;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,17,17,1);
+}
+#Message {
+	opacity: 0.7;
+	position: absolute;
+	left: 19px;
+	top: 271px;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(17,17,17,1);
+}
+#Send {
+	position: absolute;
+	left: 74px;
+	top: 545px;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 0.5px;
+	top: 153.38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 570px;
+	height: 1px;
+	left: 0.5px;
+	top: 226.38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_68 {
+	position: absolute;
+	overflow: visible;
+	width: 570px;
+	height: 240px;
+	left: 0px;
+	top: 256px;
+}
+.location {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 30px;
+	left: 840.764px;
+	top: 499px;
+}
+.message {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 21px;
+	left: 1121.698px;
+	top: 499px;
+}
+.phone {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 30px;
+	left: 1459.813px;
+	top: 499px;
+}
+#CIBA_6th_Floor__Agnel_Technica {
+	position: absolute;
+	left: 875.191px;
+	top: 495px;
+	overflow: hidden;
+	width: 239px;
+	height: 122px;
+	line-height: 22px;
+	margin-top: -0.5px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(34,34,34,1);
+}
+#Mumbai_ciba_org_in_sagar_chand {
+	position: absolute;
+	left: 1166.254px;
+	top: 495px;
+	overflow: visible;
+	width: 240px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -0.5px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(34,34,34,1);
+}
+#ID022_2777100_Ext_530 {
+	position: absolute;
+	left: 1504.375px;
+	top: 495px;
+	overflow: visible;
+	width: 199px;
+	white-space: nowrap;
+	line-height: 22px;
+	margin-top: -0.5px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	color: rgba(34,34,34,1);
+}
+.Annotation_2019_09_19_171938 {
+	position: absolute;
+	overflow: visible;
+	width: 1323px;
+	height: 625px;
+	left: 882.171px;
+	top: 115px;
+}
+#Home {
+	position: absolute;
+	left: 971px;
+	top: 25.349px;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#About_Us {
+	position: absolute;
+	left: 1109px;
+	top: 25.349px;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Courses {
+	position: absolute;
+	left: 1276px;
+	top: 25.349px;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Teachers {
+	position: absolute;
+	left: 1432px;
+	top: 25.349px;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Programs {
+	position: absolute;
+	left: 1594px;
+	top: 25.349px;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Contact {
+	position: absolute;
+	left: 1764px;
+	top: 25px;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(0,0,0,1);
+}
+#Component_13___8 {
+	position: absolute;
+	width: 297.405px;
+	height: 74.966px;
+	left: 1369px;
+	top: 811px;
+	overflow: visible;
+}
+#Group_679 {
+	position: absolute;
+	width: 297.405px;
+	height: 74.966px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.shape___bg_A6_Rectangle_212 {
+	filter: drop-shadow(0px 20px 30px rgba(0, 0, 29, 0.141));
+	position: absolute;
+	overflow: visible;
+	width: 387.405px;
+	height: 164.966px;
+	left: 0px;
+	top: 0px;
+}
+#Register_now {
+	position: absolute;
+	left: 40px;
+	top: 19px;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Group_681 {
+	position: absolute;
+	width: 1820px;
+	height: 788px;
+	left: 73px;
+	top: 3107px;
+	overflow: visible;
+}
+#Mentors {
+	position: absolute;
+	width: 1802px;
+	height: 788px;
+	left: 18px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 400px;
+	left: 0px;
+	top: 253px;
+}
+.prasadmenon_414x412 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 400px;
+	left: 463px;
+	top: 253px;
+}
+#_______ {
+	position: absolute;
+	left: 333px;
+	top: 653px;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(34,34,34,1);
+}
+#Prasad_Menon_CEO__CIBA_Mumbai_ {
+	position: absolute;
+	left: 463px;
+	top: 674px;
+	overflow: hidden;
+	width: 379px;
+	height: 114px;
+	line-height: 50px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(34,34,34,1);
+}
+#Saurabh_Sinha_CEO__Rein_Labs_ {
+	position: absolute;
+	left: 926px;
+	top: 674px;
+	overflow: hidden;
+	width: 379px;
+	height: 114px;
+	line-height: 50px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(34,34,34,1);
+}
+#Ishan_Nadkarni_Founder__Impact {
+	position: absolute;
+	left: 1403px;
+	top: 674px;
+	overflow: hidden;
+	width: 400px;
+	height: 114px;
+	line-height: 50px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(34,34,34,1);
+}
+#__Mentors_and_Instructors_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 829px;
+	height: 184px;
+	text-align: left;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 68px;
+	color: rgba(0,0,0,1);
+}
+.Ellipse_61 {
+	position: absolute;
+	overflow: visible;
+	width: 390px;
+	height: 390px;
+	left: 926px;
+	top: 253px;
+}
+.Ellipse_62 {
+	position: absolute;
+	overflow: visible;
+	width: 390px;
+	height: 390px;
+	left: 1397px;
+	top: 253px;
+}
+#_Dan_Kranzler_Senior_Partner__ {
+	position: absolute;
+	left: 0px;
+	top: 619px;
+	overflow: hidden;
+	width: 423px;
+	height: 169px;
+	text-align: center;
+	font-family: SF UI Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(0,0,0,1);
+}
+#Group_680 {
+	position: absolute;
+	width: 549px;
+	height: 101px;
+	left: 1283px;
+	top: 926px;
+	overflow: visible;
+}
+.cibalogoblack {
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	height: 101px;
+	left: 285px;
+	top: 0px;
+}
+.catalyzed_and_supported {
+	position: absolute;
+	overflow: visible;
+	width: 262px;
+	height: 96px;
+	left: 0px;
+	top: 5px;
+}
+.Line_23 {
+	overflow: visible;
+	position: absolute;
+	width: 4px;
+	height: 95.031px;
+	left: 276.5px;
+	top: 5.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Online_instructor {
+	position: absolute;
+	left: 160px;
+	top: 3297px;
+	overflow: visible;
+	width: 289px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: SF Text;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#Classroom_session_instructors {
+	position: absolute;
+	left: 953px;
+	top: 3297px;
+	overflow: visible;
+	width: 515px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: SF Text;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+.Line_24 {
+	overflow: visible;
+	position: absolute;
+	width: 5px;
+	height: 396px;
+	left: 514.5px;
+	top: 3360.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Logo_ciba_A6_Rectangle_217 {
+	position: absolute;
+	overflow: visible;
+	width: 214px;
+	height: 70px;
+	left: 128px;
+	top: 6735px;
+}
+.cover {
+	filter: drop-shadow(11px 11px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1105px;
+	height: 684px;
+	left: 34px;
+	top: 323px;
+}
+.VBC_Logo_high_res {
+	position: absolute;
+	overflow: visible;
+	width: 816px;
+	height: 106px;
+	left: 339px;
+	top: 148px;
+}
