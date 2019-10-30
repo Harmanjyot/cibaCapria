@@ -3025,8 +3025,8 @@ footer a
 			position: relative;
 			top: -15em;
 			float: right;
-			right: -5em;
-			margin-right: 1em;
+			right: -4em;
+			margin-right: 2em;
 		}
 		#banner .registerBtn {
 			position: relative;
@@ -4763,7 +4763,7 @@ fieldset .action-button
 @media screen and (max-width: 515px)
 {
 	#tab1 .enrollBtn {
-		top:7em;
+		top:0em;
 		left: -5em !important;
 		}
 		.mapIcons
@@ -5120,6 +5120,10 @@ fieldset .action-button
 		top:3%;
 
 	}
+	.aboutProgram p
+	{
+		font-size: 1.1em;
+	}
 	.imgIndexBack
 	{
 		width: 100%;
@@ -5182,11 +5186,11 @@ position: absolute !important;
 	}
 	.detailsColumn
 	{
-		top: 10em;
+		top: 5em;
 	}
 	.enrollBtn
 	{
-		top: 45em;
+		top: 38em;
 	}
 	.newsletter
 	{
@@ -5328,6 +5332,22 @@ position: absolute !important;
 	{
 		left: 0px !important;
 	}
+	.endText1 p
+	{
+		font-size: 1.3em !important;
+	}
+	.endText1 h2
+	{
+		font-size: 2.7em;
+	}
+	.endText2 h2
+	{
+		font-size: 2.7em;
+	}
+	.endText2 p
+	{
+		font-size: 1.3em !important;
+	}
 
 }
 @media screen and (max-width: 480px)
@@ -5349,11 +5369,22 @@ position: absolute !important;
 }
 	.endText1 h2
 	{
-		left: -10% !important;
+		left: -6% !important;
+		font-size: 2.3em;
 	}
 	.endText2 h2
 	{
-		left: -10% !important;
+		left: -6% !important;
+		font-size: 2.3em;
+	}
+
+	.endText1 p
+	{
+		font-size: 1em !important;
+	}
+	.endText2 p
+	{
+		font-size: 1em !important;
 	}
 	.footer h2
 	{
@@ -5383,7 +5414,7 @@ position: absolute !important;
 	#tab1 .enrollBtn
 	{
 		top: 18em;
-		left: -1em !important;
+		left: 2% !important;
 	}
 	.headerBlk1
 	{
@@ -5406,6 +5437,7 @@ position: absolute !important;
 	{
 		font-size: 0.7em !important;
 		line-height: 0.01em !important;
+		text-align: left;
 	}
 	.text-block .textH2
 	{
@@ -5426,7 +5458,17 @@ position: absolute !important;
 {
 	height: 18em !important;
 }
+.detailsColumn
+{
+	top: 6.5em !important;
+	left: -10% !important;
 
+}
+.enrollBtn
+{
+	top: 4em !important;
+	left: 1em !important;
+}
 }
 @media screen and (max-width: 357px)
 {
@@ -5452,4 +5494,39 @@ position: absolute !important;
 	{
 		height: 11em;
 	}
+}
+@media screen and (max-width: 441px)
+{
+	#tab1 .enrollBtn
+	{
+		top: 18em;
+		left: -10% !important;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	#nav
+	{
+		position: relative;
+		right: 5%;
+	}
+}
+.swiper2
+{
+	width: 100%;
+	left: 1em !important;
+	height: 25em;
+}
+.imageSlide2
+{
+	width: 20em;
+	height: auto;
+	position: relative;
+	top: 5em;
+
+}
+.swiperDetails2
+{
+	top: 17em;
+	font-weight: 1000;
 }
