@@ -5337,7 +5337,15 @@ position: absolute !important;
 
 	height: 13em !important;
 
-
+}
+.newsletter input
+{
+	top: 50%;
+}
+#header a.navPanelToggle
+{
+	position: relative;
+	right: 10%;
 }
 	.endText1 h2
 	{
