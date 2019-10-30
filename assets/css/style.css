@@ -3005,6 +3005,7 @@ footer a
 			line-height: 0.5em;
 			position: relative;
 			top: -2em;
+			left: 5%;
 			white-space: pre-wrap;
 			word-wrap: break-word;
 		}
@@ -3016,7 +3017,7 @@ footer a
 			position: relative;
 			top: -12em;
 			word-wrap: break-word;
-			right: 6.5em;
+			right: 5%;
 			white-space: pre-wrap;
 		}
 		#banner .logoNSTEBD {
@@ -3031,7 +3032,7 @@ footer a
 		#banner .registerBtn {
 			position: relative;
 			top: -22em;
-			right: 2em;
+			right: -1%;
 
 		}
 		#banner .imagesIndex {
@@ -3195,7 +3196,7 @@ footer a
 			position: relative;
 			top: -14em;
 			float: right;
-			right: 6em;
+			right: 1%;
 
 		}
 		#banner .registerBtn {
