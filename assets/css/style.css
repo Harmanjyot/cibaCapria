@@ -2798,7 +2798,8 @@ footer a
 
 
 			#header a:hover {
-				color: white;
+				transition: 0.3s ease;
+				/*color: white;*/
 				font-size: 1.1em;
 			}
 
