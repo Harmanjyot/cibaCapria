@@ -3549,6 +3549,7 @@ footer a
 			#three {
 				display: block;
 				width: 100%;
+				z-index: 999999;
 				/*position: absolute;
 				top: 47em;*/
 				/*z-index: 100000;*/
@@ -3967,7 +3968,7 @@ footer a
   	visibility: visible;
   }
     .swiper-slide-active .swiperOverlay {
-    	transition: all 0.3s ease;
+    	transition: all 0.4s ease;
   	opacity: 0;
   }
 .swiper-slide__content {
@@ -4003,6 +4004,7 @@ footer a
 }
 
 .swiperOverlay {
+	transition: 0.6s ease;
 	position: absolute;
 	width: 6.5em;
 	height: 6.5em;
@@ -5108,6 +5110,19 @@ fieldset .action-button
 		left: -1em !important;
 	}
 
+	.swiperDetails2 {
+
+    width: 200% !important;
+}
+.swiperDetails2 p
+{
+	font-size: 1em !important;
+}
+.swiperContainer2
+{
+	position: relative !important;
+	top: -2em !important;
+}
 	#mobiTop
 	{
 		position: absolute;
@@ -5115,7 +5130,7 @@ fieldset .action-button
 		width: 100%;
 		background-color: white;
 		opacity: 0.75;
-		height: 72%;
+		height: 100%;
 		z-index: 9;
 		top:3%;
 
@@ -5515,7 +5530,7 @@ position: absolute !important;
 {
 	width: 100%;
 	left: 1em !important;
-	height: 25em;
+	height: 100%;
 }
 .imageSlide2
 {
@@ -5529,4 +5544,22 @@ position: absolute !important;
 {
 	top: 17em;
 	font-weight: 1000;
+}
+.swiperContainer2
+{
+	background-color: transparent;
+	height: 25em;
+}
+.swiperDetails2 p
+{
+	font-size: 1.3em;
+}
+.swiperOverlay2
+{
+	position: absolute;
+	width: 25em;
+	height: 30em;
+	border-radius: 0em;
+	opacity: 0.5;
+
 }
