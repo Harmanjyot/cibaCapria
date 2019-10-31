@@ -2978,7 +2978,7 @@ footer a
 /* Banner */
 
 	#banner {
-		padding: 8em 0 9em 0;
+		padding: 5em 0 9em 0;
 		background-image: url(../../images/Group_689@2x.png);
 		background-size: 80%;
 
@@ -2987,7 +2987,7 @@ footer a
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		max-height: 55em;
+		max-height: 70em;
 	}
 
 /*		#banner:before {
@@ -3001,11 +3001,11 @@ footer a
 		}
 */
 		#banner .textH1 {
-			font-size: 5em;
+			font-size: 4.5em;
 			line-height: 0.5em;
 			position: relative;
-			top: -2em;
-			left: 5%;
+			top: -1em;
+			left: 1%;
 			white-space: pre-wrap;
 			word-wrap: break-word;
 		}
@@ -3015,24 +3015,24 @@ footer a
 			font-size: 1.5em;
 			line-height: 1em;
 			position: relative;
-			top: -12em;
+			top: -7em;
 			word-wrap: break-word;
-			right: -18%;
-			white-space: pre-wrap;
+			right: 8.5%;
+			white-space: normal;
 		}
 		#banner .logoNSTEBD {
 			width: 18%;
 			height: auto;
 			position: relative;
-			top: -15em;
-			float: right;
-			right: -4em;
+			top: -10em;
+
+			left: 40%;
 			margin-right: 2em;
 		}
 		#banner .registerBtn {
 			position: relative;
-			top: -22em;
-			right: -27%;
+/*			top: -22em;*/
+			right: -22.5%;
 
 		}
 		#banner .imagesIndex {
@@ -3040,16 +3040,16 @@ footer a
 			height: auto;
 			float: left;
 			position: relative;
-			top: -12em;
+			top: -8em;
 			left: 10em;
 		}
 				#banner .capriaLogo {
 			width: 40%;
 			height: auto;
-			float: right;
+			
 			position: relative;
-			top: -8em;
-			right: -10em;
+			top: -5em;
+			right: -25em;
 
 			/*left: 63em;
 */		}
@@ -3143,17 +3143,21 @@ footer a
 			width: 18%;
 			height: auto;
 			position: relative;
-			top: -15em;
-			float: right;
-			right: 1em;
+			top: -12em;
+
+			/*right: 1em;*/
 		}
 			#banner .imagesIndex {
-			width: 45em;
+			width: 45%;
 			height: auto;
 			float: left;
 			position: relative;
-			top: -10.5em;
-			left: 17em;
+			top: -5em;
+			left: 10em;
+		}
+		#banner .textH2
+		{
+			right: -13.5% !important;
 		}
 
 		}
@@ -3164,19 +3168,20 @@ footer a
 				padding: 7em 0 6em 0;
 			}
 			#banner .capriaLogo {
-			width: 30%;
+			width: 40%;
 			height: auto;
 			float: right;
 			position: relative;
-			top: -7em;
+		/*	top: -7em;*/
 			right: 2.5em;
 
 		}
 		#banner .textH1 {
-			font-size: 4em;
+			font-size: 3.5em;
 			line-height: 0.5em;
 			position: relative;
-			top: -2.2em;
+/*			top: -2.2em;*/
+			left: 1%;
 		}
 		#banner .textH2 {
 			color: black;
@@ -3184,25 +3189,24 @@ footer a
 			font-size: 1em;
 			line-height: 1em;
 			position: relative;
-			top: -16em;
+			top: -8em;
+			left: 20%;
 /*			top: -12em;
 			word-wrap: break-word;
 			right: 6.5em;
 			white-space: pre-wrap;*/
 		}
 		#banner .logoNSTEBD {
-			width: 12%;
+			width: 9em;
 			height: auto;
 			position: relative;
-			top: -14em;
-			float: right;
-			right: 1%;
-
+			left: 75% !important;
+			top: -10em;
 		}
 		#banner .registerBtn {
 			position: relative;
-			top: -20em;
-			right: 2em;
+			top: -4em;
+			left: 20%;
 
 		}
 		#banner .imagesIndex {
@@ -3210,8 +3214,8 @@ footer a
 			height: auto;
 			float: left;
 			position: relative;
-			top: -9em;
-			left: 14em;
+			top: -3.5em;
+			left: 9em;
 		}
 
 
@@ -3240,53 +3244,52 @@ footer a
 				padding: 5em 0 4em 0;
 			}
 			#banner .capriaLogo {
-			width: 20%;
+			width: 20em;
 			height: auto;
 			float: right;
 			position: relative;
-			top: -4.8em;
-			right: 10em;
-
+			top: -4.5em;
+			/*right: 10em;*/
+			left: 70%;
 		}
 		#banner .textH1 {
-			font-size: 3.5em;
+			font-size: 3.42em;
 			line-height: 0.5em;
 		/*	position: relative;
 			top: 1em;*/
 		}
-		#banner .textH2 {
+/*		#banner .textH2 {
 			color: black;
 			display: inline;
 			font-size: 1em;
 			line-height: 1em;
 			position: relative;
-			top: -14em;
-/*			top: -12em;
-			word-wrap: break-word;
-			right: 6.5em;
-			white-space: pre-wrap;*/
-		}
+			top: -9.5em;
+			font-weight: 1000;
+
+		}*/
 		#banner .logoNSTEBD {
-			width: 12%;
+			width: 7em;
 			height: auto;
 			position: relative;
-			top: -10em;
+			top: -7em;
 			min-width: 12%;
-			right: 10.5em;
+			left: 80% !important;
 		}
 		#banner .registerBtn {
 			position: relative;
-			top: -15em;
-			right: 2em;
-
+			/*top: -10em;*/
+			/*right: 2em;*/
+			top: -1em;
+			left: 22% !important;
 		}
 		#banner .imagesIndex {
 			width: 45%;
 			height: auto;
 			float: left;
 			position: relative;
-			top: -6em;
-			left: 5em;
+			/*top: -6em;*/
+			left: 7em;
 		}
 
 				#banner .inner {
@@ -3312,6 +3315,7 @@ footer a
 
 			#banner {
 				padding: 4em 0 3em 0;
+				height: 60em;
 			}
 			#banner .capriaLogo {
 			width: 15%;
@@ -3324,26 +3328,25 @@ footer a
 		}
 
 		#banner .textH1 {
-			font-size: 2.9em;
+			font-size: 4em;
 			line-height: 0.5em;
 			position: relative;
-			top: -1em;
-			right: 1em;
+			top: 25% !important;
+			right: 0em;
 
 		}
-		#banner .textH2 {
+/*		#banner .textH2 {
 			color: black;
 			display: block;
 			font-size: 0.9em;
 			line-height: 1em;
 			position: relative;
-			top: -8em;
+			left: -25%;
 			right: 15em;
-/*			top: -12em;
-			word-wrap: break-word;
-			right: 6.5em;
-			white-space: pre-wrap;*/
-		}
+			margin-top: 1em;
+			    top: -15% !important
+
+		}*/
 		#banner .logoNSTEBD {
 			width: 11%;
 			height: auto;
@@ -3356,6 +3359,7 @@ footer a
 			position: relative;
 			top: -9em;
 			right: 4em;
+			left: 35% !important;
 
 		}
 		#banner .imagesIndex {
@@ -3363,7 +3367,7 @@ footer a
 			height: auto;
 			float: left;
 			position: relative;
-			top: -3em;
+			top: 25em;
 			left: 1em;
 		}
 
@@ -3392,6 +3396,7 @@ footer a
 						padding: 0;
 						border: none;
 						margin-bottom: 1em;
+						height: fit-content;
 					}
 
 		}
@@ -3647,16 +3652,16 @@ footer a
 			width: 20em;
 			height: 30em;
 			position: relative;
-			right: -5em;
+			right: -10em;
 			border: 2px solid white;
 			display: block;
 			line-height: 1em;
-			float: right;
+
 			box-shadow: 3px 6px 9px 2px lightgray;
 		}
 		.detailsColumn h4,p {
 			position: relative;
-			top: 1.5em;
+			top: 3.5em;
 			line-height: 1.4em;
 			white-space: pre-wrap;
 			word-wrap: break-word;
@@ -3664,8 +3669,8 @@ footer a
 
 		.detailsColumn p {
 			display: block;
-			/*position: relative;
-			top: 0.5em;*/
+			position: relative;
+			top: 4.5em;
 			line-height: 1em;
 			white-space: pre-wrap;
 			word-wrap: break-word;
@@ -3678,12 +3683,12 @@ footer a
 		#taxID {
 			font-size: 0.9em;
 			position: relative;
-			top: -0.5em;
+			top: 5em;
 		}
 		.enrollBtn {
 			position: relative;
-			top: -6em;
-			left: 10em;
+			top: 6em;
+			
 			z-index: 500;
 		}
 /*
@@ -3714,7 +3719,7 @@ footer a
 			background-position: right;
 			z-index: 100;
 			position: relative;
-			top: -5em;
+
 
 		}
 		@media screen and (max-width: 1414px)
@@ -3723,11 +3728,11 @@ footer a
 			width: 19em;
 			height: 28em;
 			position: relative;
-			right: -1em;
+
 	/*		border: 2px solid black;*/
 			display: block;
 			line-height: 1em;
-			float: right;
+
 		}
 		.aboutProgram {
 			width: 45em;
@@ -3739,13 +3744,13 @@ footer a
 		}
 		.detailsColumn h4 {
 			font-size: 1.5em;
-			line-height: 0em;
+			line-height: 1em;
 		}
 		.detailsColumn p {
 			display: block;
 			position: relative;
-			top: 3.2em;
-			line-height: 1em;
+			top:3em;
+			line-height: 1.5em;
 			white-space: pre-wrap;
 			word-wrap: break-word;
 			font-size: 1EM;
@@ -3753,7 +3758,7 @@ footer a
 		}
 		.detailsColumn h4,p {
 /*			position: relative;*/
-			top: 2.5em;
+			top: 3em;
 /*			line-height: 1.4em;
 			white-space: pre-wrap;
 			word-wrap: break-word;*/
@@ -3761,16 +3766,16 @@ footer a
 				#taxID {
 			font-size: 0.9em;
 			position: relative;
-			top: 3em;
+			top: 2em;
 		}
 		.enrollBtn {
 /*			position: relative;*/
-			top: -5em;
-			left: 9em;
+			top: 1em;
+			
 		}
 		#tab2 .detailsColumn {
 		/*	position: absolute !important;*/
-		left: 50em !important;
+		/*left: 50em !important;*/
 			}
 
 			#tab2 .enrollBtn {
@@ -3797,7 +3802,7 @@ footer a
 			/*border: 2px solid black;*/
 			display: block;
 			line-height: 1em;
-			float: right;
+
 		}
 		.aboutProgram {
 			width: 40em;
@@ -3807,15 +3812,11 @@ footer a
 			/*line-height: 1em;*/
 
 		}
-				.enrollBtn {
-			position: absolute;
-			top: 46em;
-			left: 67em;
-		}
+
 
 				#tab2 .detailsColumn {
 		/*	position: absolute !important;*/
-		left: 110% !important;
+		/*left: 110% !important;*/
 			}
 
 /*			.footer {
@@ -3871,8 +3872,8 @@ footer a
 .col-9,.col-4 {background: #EAEAEA}*/
 
 .col-3 img {
-	width: 17.1em;
-	height: 17em;
+	width: 13em;
+	height: 13em;
 	/*border-right: 1em solid white;*/
 
 }
@@ -3901,7 +3902,7 @@ footer a
 }
 .instructors {
 	position: relative;
-	top: -5em;
+
 }
 	.endText1 h2{
 	display: block;
@@ -3927,7 +3928,7 @@ footer a
 	font-size: 3em;
 	font-weight: 1000;
 	text-align: left;
-	line-height: 0.8em;
+	line-height: 1em;
 }
 .endText2 p{
 	/*line-height: 1em;*/
@@ -4179,8 +4180,8 @@ display: block;
 }
 
 #progMod {
-	width: 40em;
-	height: 65em;
+	width: 100%;
+	height: 20em;
 }
 
 #tab2 {
@@ -4216,7 +4217,7 @@ display: block;
 #tab2 .detailsColumn {
 	position: absolute;
 	top: -3em;
-	left: 60em;
+	/*left: 60em;*/
 }
 #tab2 .enrollBtn {
 	position: absolute;
@@ -4728,11 +4729,11 @@ fieldset .action-button
 			width: 19em;
 			height: 28em;
 			position: relative;
-			right: -3em;
+
 			top: 3em;
 			display: block;
 			line-height: 1em;
-			float: right;
+
 		}
 		.aboutProgram {
 			width: 30em;
@@ -4743,9 +4744,6 @@ fieldset .action-button
 
 		}
 				.enrollBtn {
-			position: absolute;
-			top: 49em;
-			left: 55.5em;
 			width: 12em;
 			padding: 0px;
 		}
@@ -4756,7 +4754,7 @@ fieldset .action-button
 			font-size: 1.2em !important;
 		}
 		#tab2 .detailsColumn {
-			left: 95% !important;
+			/*left: 95% !important;*/
 		}
 		.modDot
 		{
@@ -4799,7 +4797,14 @@ fieldset .action-button
 	#three {
 		position: relative;
 		top: -5em;
+
 	}
+	#banner .textH2 {
+    top: -7em;
+    left: 1%;
+    font-size: 1.5em;
+    top: -4.5em;
+}
 	.logoNSTEBD
 	{
 		right: 7em !important; 
@@ -4829,7 +4834,7 @@ fieldset .action-button
 			width: 19em;
 			height: 28em;
 			position: relative;
-			right: 30%;
+
 			top: 3em;
 			display: block;
 			line-height: 1em;
@@ -4844,9 +4849,7 @@ fieldset .action-button
 
 		}
 		.enrollBtn {
-			position: relative;
-			top: 35em;
-			left: 20%;
+
 			width: 12em;
 			padding: 0px;
 		}
@@ -4854,7 +4857,7 @@ fieldset .action-button
 			height: 90em;
 		}
 		#progMod {
-			width: 85%;
+			width: 100%;
 			float: left;
 			position: relative;
 			left: 0em;
@@ -4916,9 +4919,12 @@ fieldset .action-button
 		{
 /*			padding-top: 2em;*/
 			display: block;
-			top: 30em;
-			left: 17%;
+			top: 27.5em;
+			/*left: 17%;*/
+			width: 100%;
+			right: 0em;
 			margin-bottom: 2em;
+			box-shadow: none;
 		}
 
 
@@ -4927,8 +4933,11 @@ fieldset .action-button
 /*			padding-top: 2em;*/
 			display: block;
 			position: absolute;
-			left:28%;
+			left:0%;
+			width: 100%;
 			margin-bottom: 2em;
+			top: 3em;
+			box-shadow: none;
 		}
 		.swiper-container
 		{
@@ -5093,7 +5102,7 @@ fieldset .action-button
     width: 23.73%;
   }
   .grid [class*='cg-'].gutter.cg-1-6 {
-    width: 15.485%;
+    width: 5%;
   }
   .cg-1-4 {
     width: 25%;
@@ -5122,6 +5131,24 @@ fieldset .action-button
 		width: 100% !important;
 		left: -1em !important;
 	}
+
+	.logo2
+{
+	    display: block !important;
+    width: 6.5em;
+    position: absolute;
+    top: 1.5em;
+    left: 8em;
+}
+.logoNSTEBD
+{
+	display: none;
+}
+#banner .textH2 {
+    top: 16em !important;
+    left: 25%;
+    
+}
 
 	.swiperDetails2 {
 
@@ -5160,11 +5187,12 @@ fieldset .action-button
 	{
 		/*position: relative;*/
 		position: absolute !important;
-		top: 4% !important;
+		top: 8% !important;
 		z-index: 10;
 		right: 40% !important;
-		width: 25% !important;
+		width: 25em !important;
 		height: auto !important;
+		left: 10% !important;
 	}
 	.text-block .textH1
 	{
@@ -5177,22 +5205,31 @@ position: absolute !important;
 /*		font-size: 10% !important;*/
 
 	}
+	.t2
+	{
+		height: 5em;
+	}
 	.text-block .textH2
 	{
-		position: absolute !important;
-		top: 40% !important;
+		/*position: absolute !important;*/
+		top: -10% !important;
 		color: black !important;
 		z-index: 10;
+		line-height: 1em
 		left: -30% !important;
-		font-size: 1.3em !important;
+		font-size: 1.5em !important;
 		width: 120% !important;
+		float: left !important;
+		white-space: nowrap !important;
+		width: 50% !important;
+		font-weight: 1000;
 	}
 	.registerBtn
 	{
 		z-index: 100;
 		position: absolute !important;
-		top: 55% !important;
-		right: 44% !important;
+		top: 150% !important;
+		right: 40% !important;
 		width: 15em !important;
 		padding: 0px;
 	}
@@ -5204,10 +5241,10 @@ position: absolute !important;
 		top: -10em !important;
 		margin-right: 0.5em !important;
 	}
-	#three
+/*	#three
 	{
 		top: -10em !important;
-	}
+	}*/
 	#tab1
 	{
 		height: 60em;
@@ -5216,10 +5253,7 @@ position: absolute !important;
 	{
 		top: 5em;
 	}
-	.enrollBtn
-	{
-		top: 38em;
-	}
+
 	.newsletter
 	{
 		height: 15em;
@@ -5298,6 +5332,10 @@ position: absolute !important;
 		left: 1%;
 		width: 100%;
 		top: 33em !important;
+	}
+	.headerBlk2 h2{
+		position: relative;
+		top: -1em;
 	}
 	.headerBlk1{
 		left: 1%;
@@ -5432,18 +5470,14 @@ position: absolute !important;
 	}
 	#tab1 .detailsColumn
 	{
-		left: -3%;
+		
 		top: 18em;
 	}
 	.midPage
 	{
 		top: 0em;
 	}
-	#tab1 .enrollBtn
-	{
-		top: 18em;
-		left: 2% !important;
-	}
+
 	.headerBlk1
 	{
 		top: 5em;
@@ -5452,10 +5486,7 @@ position: absolute !important;
 		position: relative;
 		top: -12em;
 	}
-	.registerBtn
-	{
-		display: none;
-	}
+
 	.logoNSTEBD
 	{
 		left: -30% !important;
@@ -5463,15 +5494,15 @@ position: absolute !important;
 	}
 	.textH1 b
 	{
-		font-size: 0.7em !important;
+		font-size: 0.85em !important;
 		line-height: 0.01em !important;
 		text-align: left;
 	}
-	.text-block .textH2
+/*	.text-block .textH2
 	{
 		font-size: 1em !important;
 		top: 45% !important;
-	}
+	}*/
 	.mapIcons
 		{
 			height: 26em !important;
@@ -5489,22 +5520,18 @@ position: absolute !important;
 .detailsColumn
 {
 	top: 6.5em !important;
-	left: -10% !important;
+	left: 2% !important;
 
 }
-.enrollBtn
-{
-	top: 4em !important;
-	left: 1em !important;
-}
+
 }
 @media screen and (max-width: 357px)
 {
-	.text-block .textH2
+/*	.text-block .textH2
 	{
 		width: 150% !important;
 		left: -50% !important;
-	}
+	}*/
 	.logoNSTEBD
 	{
 		left: -30% !important;
@@ -5543,7 +5570,7 @@ position: absolute !important;
 {
 	width: 100%;
 	left: 1em !important;
-	height: 100%;
+	height: 25em;
 }
 .imageSlide2
 {
@@ -5575,4 +5602,57 @@ position: absolute !important;
 	border-radius: 0em;
 	opacity: 0.5;
 
+}
+#progBar
+{
+	width: 100%;
+}
+.progCol
+{
+	height: 15em;
+	position: relative;
+	left: 1.5%;
+}
+.progCol .cg-1-6
+{
+	height: 100%;
+	margin-right: 1em;
+	margin-top: 1em;
+	box-shadow: 2px 3px 12px 0px lightgray;
+	width: 15% !important;
+	text-align: center;
+	padding-top: 4em;
+	color: black;
+}
+#cirImg
+{
+	border-radius: 17em;
+}
+/*.text-block
+{
+	height: 20em;
+	width: 38em;
+	float: right;
+	position: relative;
+	right: 7%;
+	top: 5em;
+}*/
+.logo2
+{
+	display: none;
+}
+@media screen and (max-width: 1083px)
+{
+	.progCol .cg-1-6 {
+		width: 22% !important;
+    }
+	
+}
+@media screen and (max-width: 767px)
+{
+	.progCol .cg-1-6 {
+		width: 100% !important;
+		height: 40% !important;
+		padding-top: 2em !important;
+    }
 }
