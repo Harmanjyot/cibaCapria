@@ -3331,7 +3331,7 @@ footer a
 			font-size: 4em;
 			line-height: 0.5em;
 			position: relative;
-			top: 25% !important;
+			top: 2em !important;
 			right: 0em;
 
 		}
@@ -3358,8 +3358,8 @@ footer a
 		#banner .registerBtn {
 			position: relative;
 			top: -9em;
-			right: 4em;
-			left: 35% !important;
+			right: 0em !important;
+			left: -1em !important;
 
 		}
 		#banner .imagesIndex {
@@ -5227,9 +5227,9 @@ position: absolute !important;
 	.registerBtn
 	{
 		z-index: 100;
-		position: absolute !important;
-		top: 150% !important;
-		right: 40% !important;
+		position: relative; !important;
+		top: 23em !important;
+		left: 10em !important;
 		width: 15em !important;
 		padding: 0px;
 	}
