@@ -2535,7 +2535,7 @@ footer a
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: rgb(255, 13, 13);
+		background-color: rgb(0, 164, 255);
 		/*box-shadow: inset 0 0 0 3px #6cc091;*/
 		color: white !important;
 		border-radius: 30px;
@@ -2560,7 +2560,7 @@ footer a
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgb(255, 85, 20);
+			background-color: #6cc091;
 		}
 
 		input[type="submit"]:active,
@@ -2778,7 +2778,7 @@ footer a
 			position: relative;
 			top: 1em;
 			font-size: 1em;
-			font-weight: 1000;
+			font-weight: 900;
 		}
 
 		#header.small a {
@@ -3002,12 +3002,15 @@ footer a
 */
 		#banner .textH1 {
 			font-size: 4.5em;
-			line-height: 0.5em;
+			line-height: 1em;
 			position: relative;
 			top: -1em;
-			left: 1%;
+			left: 11%;
 			white-space: pre-wrap;
-			word-wrap: break-word;
+			word-wrap: normal;
+			width: 86%;
+			height: auto;
+			text-align: left;
 		}
 		#banner .textH2 {
 			color: black;
@@ -3015,24 +3018,28 @@ footer a
 			font-size: 1.5em;
 			line-height: 1em;
 			position: relative;
-			top: -7em;
+			top: -10em;
 			word-wrap: break-word;
-			right: 8.5%;
+			
 			white-space: normal;
+			font-weight: 600;
+			left: 14.8em;
+
 		}
 		#banner .logoNSTEBD {
 			width: 18%;
 			height: auto;
 			position: relative;
-			top: -10em;
-
-			left: 40%;
+			top: -15em;
+    left: 32%;
 			margin-right: 2em;
 		}
 		#banner .registerBtn {
 			position: relative;
 /*			top: -22em;*/
-			right: -22.5%;
+			/*right: -22.5%;*/
+			top: -8em;
+			left: 8em;
 
 		}
 		#banner .imagesIndex {
@@ -3143,7 +3150,10 @@ footer a
 			width: 18%;
 			height: auto;
 			position: relative;
-			top: -12em;
+
+			top: -14em;
+
+    left: 30%;
 
 			/*right: 1em;*/
 		}
@@ -3155,9 +3165,15 @@ footer a
 			top: -5em;
 			left: 10em;
 		}
-		#banner .textH2
+		#banner .textH1
 		{
-			right: -13.5% !important;
+			left: 10%;
+			width: 105% !important;
+
+		}
+		#banner .registerBtn {
+			    top: -6em;
+    left: 1em;
 		}
 
 		}
@@ -3178,10 +3194,10 @@ footer a
 		}
 		#banner .textH1 {
 			font-size: 3.5em;
-			line-height: 0.5em;
+			width: 10% !important;
 			position: relative;
 /*			top: -2.2em;*/
-			left: 1%;
+			left: 11%;
 		}
 		#banner .textH2 {
 			color: black;
@@ -3189,8 +3205,8 @@ footer a
 			font-size: 1em;
 			line-height: 1em;
 			position: relative;
-			top: -8em;
-			left: 20%;
+			top: -7em;
+			left: -2%;
 /*			top: -12em;
 			word-wrap: break-word;
 			right: 6.5em;
@@ -3200,13 +3216,16 @@ footer a
 			width: 9em;
 			height: auto;
 			position: relative;
-			left: 75% !important;
-			top: -10em;
+			
+
+			left: 62% !important;
+    top: -7em;
 		}
 		#banner .registerBtn {
 			position: relative;
-			top: -4em;
-			left: 20%;
+			    top: 2em;
+    left: -23em;
+			/*left: 20%;*/
 
 		}
 		#banner .imagesIndex {
@@ -3232,7 +3251,7 @@ footer a
 				}
 
 				#banner .flex div {
-					padding: 0 3em;
+					/*padding: 0 3em;*/
 				}
 
 		}
@@ -3253,8 +3272,9 @@ footer a
 			left: 70%;
 		}
 		#banner .textH1 {
-			font-size: 3.42em;
-			line-height: 0.5em;
+			font-size: 2.8em !important;
+			line-height: 1em;
+			left: 2.3em;
 		/*	position: relative;
 			top: 1em;*/
 		}
@@ -3281,7 +3301,7 @@ footer a
 			/*top: -10em;*/
 			/*right: 2em;*/
 			top: -1em;
-			left: 22% !important;
+			left: -1% !important;
 		}
 		#banner .imagesIndex {
 			width: 45%;
@@ -3323,17 +3343,17 @@ footer a
 			float: right;
 			position: relative;
 			top: -2.5em;
-			right: 15em;
-
+			left: -0.5em !important;
+			width: 100% !important;
 		}
 
 		#banner .textH1 {
-			font-size: 4em;
-			line-height: 0.5em;
-			position: relative;
-			top: 2em !important;
+			font-size: 3.5em !important;
+			position: absolute;
+			top: 22% !important;
 			right: 0em;
-
+			width: 8em !important;
+			left: 0% !important;
 		}
 /*		#banner .textH2 {
 			color: black;
@@ -3355,20 +3375,14 @@ footer a
 			
 			right: 10.5em;
 		}
-		#banner .registerBtn {
-			position: relative;
-			top: -9em;
-			right: 0em !important;
-			left: -1em !important;
-
-		}
+		
 		#banner .imagesIndex {
 			width: 50%;
 			height: auto;
 			float: left;
 			position: relative;
 			top: 25em;
-			left: 1em;
+			left: -0.5em !important;
 		}
 
 				#banner .inner {
@@ -3411,8 +3425,9 @@ footer a
 			height: auto;
 			float: right;
 			position: relative;
-			top: -4em;
-			right: 1em;
+			top: 4em !important;
+			left: -0.5em !important;
+			width: 100% !important;
 
 		}
 
@@ -3944,7 +3959,7 @@ footer a
 .swiper-container {
     position:relative;
     width: 60em;
-    height: 19em;
+    height: 23em;
     left: 8em;
 }
 .swiper-container > .swiper-slide__content {
@@ -3991,12 +4006,13 @@ footer a
 .swiperDetails h4 {
 	position: relative;
 	font-weight: 1000;
-	top: -1.5em;
+	top: -0.5em;
 
 }
 .swiperDetails h3 {
 	font-weight: 1000;
-
+	position: relative;
+	top: 1em;
 
 }
 .imageSlide {
@@ -4095,6 +4111,15 @@ display: block;
        	right: -18em;
        	top: -8em;
        }*/
+       .geoLoc
+       {
+       	box-shadow: none;
+       	float: left;
+       	margin-right: 5em;
+       	position: relative;
+       	left: 10%;
+       	margin-bottom: 2em;
+       }
 .geoLoc img {
 	width: 1.3em;
 	max-height: 1.5em;
@@ -4105,13 +4130,13 @@ display: block;
 	margin-left: 2em;
 }
 .geoLoc p {
-	float: left;
+	margin: 0px 0px 0px 0px;
 	color: white;
-
+	position: relative;
 }
 .mapIcons{
 	height: auto;
-	width: 60%;
+	width: 70%;
 	display: block;
 	float: right;
 	position: relative;
@@ -4679,6 +4704,9 @@ fieldset .action-button
 	width: 13em;
 	left: 10%;
 }
+.swiperContainer2 {
+    top: -3em !important;
+}
 	.mapIcons p
 	{
 		font-size: 0.9em;
@@ -4765,17 +4793,7 @@ fieldset .action-button
 	top: -4.7em !important;
 }
 }
-@media screen and (max-width: 515px)
-{
-	#tab1 .enrollBtn {
-		top:0em;
-		left: -5em !important;
-		}
-		.mapIcons
-		{
-			height: 23em !important;
-		}
-}
+
 @media screen and (max-width: 685px)
 {
 	.l2
@@ -4800,11 +4818,13 @@ fieldset .action-button
 
 	}
 	#banner .textH2 {
-    top: -7em;
-    left: 1%;
-    font-size: 1.5em;
-    top: -4.5em;
+    font-size: 1.5em !important;
+    line-height: 1em;
+    left: 2.8em;
+    display: flex;
+    top: -3em !important;
 }
+
 	.logoNSTEBD
 	{
 		right: 7em !important; 
@@ -4998,7 +5018,7 @@ fieldset .action-button
 		left: 0% !important;
 		position: relative;
 		width: 100%;
-		top: 6em;
+		top: 3em;
 		height: 20em;
 	}
 	.footer h2 
@@ -5009,6 +5029,7 @@ fieldset .action-button
 	.footer-list
 	{
 		width: 100%;
+		top: -2em !important;
 
 	}
 }
@@ -5144,11 +5165,8 @@ fieldset .action-button
 {
 	display: none;
 }
-#banner .textH2 {
-    top: 16em !important;
-    left: 25%;
-    
-}
+
+
 
 	.swiperDetails2 {
 
@@ -5161,7 +5179,7 @@ fieldset .action-button
 .swiperContainer2
 {
 	position: relative !important;
-	top: -2em !important;
+	top: -6em !important;
 }
 	#mobiTop
 	{
@@ -5570,7 +5588,7 @@ position: absolute !important;
 {
 	width: 100%;
 	left: 1em !important;
-	height: 25em;
+	height: 30em;
 }
 .imageSlide2
 {
@@ -5589,6 +5607,8 @@ position: absolute !important;
 {
 	background-color: transparent;
 	height: 25em;
+	position: relative;
+	top: -10em;
 }
 .swiperDetails2 p
 {
@@ -5655,4 +5675,116 @@ position: absolute !important;
 		height: 40% !important;
 		padding-top: 2em !important;
     }
+}
+
+@media screen and (max-width: 480px)
+{
+.swiperContainer2 {
+    top: -13.5em !important;
+}
+
+#banner .textH2 {
+
+    left: -1% !important;
+    width: 100% !important;
+}
+#banner .textH1 {
+    left: -1% !important;
+    width: 104% !important;
+    font-size: 4.5em !important;
+}
+.footer-list ul li {
+    padding-left: 10%;
+}
+
+}
+.footer-list
+{
+	position: relative;
+	top: 2em;
+}
+
+@media screen and (max-width: 515px)
+{
+	#tab1 .enrollBtn {
+		top:0em;
+		left: -5em !important;
+		}
+		.mapIcons
+		{
+			height: auto !important;
+		}
+		.footer-list
+		{
+			top: 8em !important;
+		}
+}
+@media screen and (max-width: 493px)
+{
+	.geoLoc
+	{
+		width: 70% !important;
+		left: 20%;
+
+		margin-right: 0px;
+	}
+	.footerMain
+	{
+		height: 43em !important;
+	}
+}
+/*@media screen and (max-width: 837px)
+{
+
+	#banner .textH2 {
+    left: 53% !important;
+	}
+	
+}*/
+@media screen and (max-width: 791px)
+{
+	#banner .textH2
+	{
+		left: 18.2em;
+	}
+}
+
+@media screen and (max-width: 736px)
+{
+	#banner .textH2 {
+    /*top: 16em !important;
+    left: 25%;*/
+    position: absolute;
+    top: 14em !important;
+    width: 100% !important;
+    left: 0em !important;
+
+	}
+}
+/*
+@media screen and (max-width: 934px)
+{
+	#banner .registerBtn{
+		left: 21.5% !important;
+	}
+	
+}*/
+@media screen and (max-width: 881px)
+{
+	#banner .registerBtn {
+		top: 1em;
+    left: 25% !important;
+	}
+	
+}
+
+@media screen and (max-width: 736px)
+{
+	#banner .registerBtn {
+			position: relative;
+			top: -9em;
+			right: 0em !important;
+			left: 0em !important;
+
+		}
 }
