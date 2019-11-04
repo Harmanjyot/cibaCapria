@@ -3011,6 +3011,7 @@ footer a
 			width: 86%;
 			height: auto;
 			text-align: left;
+			font-weight: 600;
 		}
 		#banner .textH2 {
 			color: black;
@@ -3018,12 +3019,13 @@ footer a
 			font-size: 1.5em;
 			line-height: 1em;
 			position: relative;
-			top: -10em;
+			left: 12%;
+			top: -5em;
 			word-wrap: break-word;
 			
 			white-space: normal;
 			font-weight: 600;
-			left: 15.7em;
+			
 
 		}
 		#banner .logoNSTEBD {
@@ -3035,15 +3037,11 @@ footer a
 			margin-right: 2em;
 		}
 		#banner .registerBtn {
-			position: relative;
-/*			top: -22em;*/
-			/*right: -22.5%;*/
-			top: -8em;
-			left: 8em;
+
 
 		}
 		#banner .imagesIndex {
-			width: 45%;
+			width: 100%;
 			height: auto;
 			float: left;
 			position: relative;
@@ -3158,7 +3156,7 @@ footer a
 			/*right: 1em;*/
 		}
 			#banner .imagesIndex {
-			width: 45%;
+			width: 100%;
 			height: auto;
 			float: left;
 			position: relative;
@@ -3172,8 +3170,7 @@ footer a
 
 		}
 		#banner .registerBtn {
-			    top: -6em;
-    left: 1em;
+			    
 		}
 
 		}
@@ -3205,8 +3202,8 @@ footer a
 			font-size: 1em;
 			line-height: 1em;
 			position: relative;
-			top: -7em;
-			left: -0.8%;
+			top: -6em;
+			
 /*			top: -12em;
 			word-wrap: break-word;
 			right: 6.5em;
@@ -3222,14 +3219,11 @@ footer a
     top: -7em;
 		}
 		#banner .registerBtn {
-			position: relative;
-			    top: 2em;
-    left: -23em;
-			/*left: 20%;*/
+			
 
 		}
 		#banner .imagesIndex {
-			width: 40%;
+			width: 100%;
 			height: auto;
 			float: left;
 			position: relative;
@@ -3271,10 +3265,11 @@ footer a
 			/*right: 10em;*/
 			left: 70%;
 		}
-		#banner .textH1 {
+		#banner .textBanner .textH1 {
 			font-size: 2.8em !important;
 			line-height: 1em;
 			left: 2.3em;
+
 		/*	position: relative;
 			top: 1em;*/
 		}
@@ -3297,14 +3292,10 @@ footer a
 			left: 80% !important;
 		}
 		#banner .registerBtn {
-			position: relative;
-			/*top: -10em;*/
-			/*right: 2em;*/
-			top: -1em;
-			left: -1% !important;
+			
 		}
 		#banner .imagesIndex {
-			width: 45%;
+			width: 100%;
 			height: auto;
 			float: left;
 			position: relative;
@@ -3314,6 +3305,7 @@ footer a
 
 				#banner .inner {
 					padding-top: 4em;
+					top: 2em;
 				}
 
 				#banner h1 {
@@ -3377,7 +3369,7 @@ footer a
 		}
 		
 		#banner .imagesIndex {
-			width: 50%;
+			width: 100%;
 			height: auto;
 			float: left;
 			position: relative;
@@ -4829,11 +4821,11 @@ fieldset .action-button
 
 	}
 	#banner .textH2 {
-    font-size: 1.3em !important;
+    font-size: 1.4em !important;
     line-height: 1em;
-    left: 3.5em;
+    
     display: flex;
-    top: -3.5em !important;
+    
 }
 
 	.logoNSTEBD
@@ -5241,11 +5233,11 @@ position: absolute !important;
 	.text-block .textH2
 	{
 		/*position: absolute !important;*/
-		top: -10% !important;
+		
 		color: black !important;
 		z-index: 10;
 		line-height: 1em
-		left: -30% !important;
+		
 		font-size: 1.5em !important;
 		width: 120% !important;
 		float: left !important;
@@ -5256,9 +5248,7 @@ position: absolute !important;
 	.registerBtn
 	{
 		z-index: 100;
-		position: relative; !important;
-		top: 23em !important;
-		left: 10em !important;
+		
 		width: 15em !important;
 		padding: 0px;
 	}
@@ -5694,15 +5684,14 @@ position: absolute !important;
 }
 
 #banner .textH2 {
-
-    left: -1% !important;
     width: 100% !important;
 }
 #banner .textH1 {
     left: -1% !important;
-    width: 7em !important;
+    width: 100% !important;
     font-size: 3.6em !important;
     top: 30% !important;
+    height: auto;
 }
 .footer-list ul li {
     padding-left: 10%;
@@ -5756,7 +5745,7 @@ position: absolute !important;
 {
 	#banner .textH2
 	{
-		left: 54%;
+		
 	}
 }
 
@@ -5765,10 +5754,9 @@ position: absolute !important;
 	#banner .textH2 {
     /*top: 16em !important;
     left: 25%;*/
-    position: absolute;
-    top: 16.5em !important;
+   
     width: 100% !important;
-    left: 0em !important;
+    
 
 	}
 }
@@ -5783,8 +5771,7 @@ position: absolute !important;
 @media screen and (max-width: 881px)
 {
 	#banner .registerBtn {
-		top: 1em;
-    left: 25% !important;
+		
 	}
 	
 }
@@ -5792,10 +5779,7 @@ position: absolute !important;
 @media screen and (max-width: 736px)
 {
 	#banner .registerBtn {
-			position: relative;
-			top: -9em;
-			right: 0em !important;
-			left: 0em !important;
+			
 
 		}
 }
@@ -6019,192 +6003,18 @@ position: absolute !important;
 
 
 
-
-
-.swiper3 .swiper-slide {
-    min-height: 600px;
-    text-align: center;
-}
-
-.swiper3 {
-	width: 100%;
-	height: 100%;
+.logoBottom
+{
+	    width: 25em;
+    /* height: auto; */
     position: relative;
-    left: -1em;
+    left: 29%;
+    top: -6em;
 }
-
-
-
-.swiper3 .slider-sub-title {
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 9.2px;
-    color: #ffffff;
-}
-
-.swiper3 .slider-title {
-    font-size: 70px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: -1.03px;
-    color: #ffffff;
-    padding: 50px 0px;
-    opacity: 1;
-}
-
-
-
-
-
-
-.swiper3 .slider-buttton {
-    font-weight: 600;
-    letter-spacing: 1.29px;
-    border: solid 1px #ffffff;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-
-
-.swiper3 .slide-1 {
-    background: url("../../images/keyHighlights/accesstoinvestments.jpg");
-    width: 100%;
-    background-size: cover;
-    /*background-position: bottom;*/
-}
-
-/*.swiper3 .slide-2 {
-    background: url("../../images/keyHighlights/accesstoinvestments.jpg");
-    background-size: cover;
-    width: 100%;
-}*/
-
-.swiper3 .slide-2 {
-    background: url("../../images/keyHighlights/100hours.png");
-    background-size: 100% auto;
-    width: 100%;
-    background-repeat: no-repeat;
-    /*background-position: bottom;*/
-}
-.swiper3 .slide-3 {
-    background: url("../../images/keyHighlights/feedback.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.swiper3 .slide-4 {
-    background: url("../../images/keyHighlights/certificate_of_completion.png");
-    background-size: auto;
-    width: 100%;
-    background-repeat: no-repeat;
-    /*background-position: bottom;*/
-}
-.swiper3 .slide-5 {
-    background: url("../../images/keyHighlights/opp_to_collaborate.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.swiper3 .slide-6 {
-    background: url("../../images/keyHighlights/peer_to_peer_learninh.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    background-repeat: no-repeat;
-    /*background-position: bottom;*/
-}
-.swiper3 .slide-7 {
-    background: url("../../images/keyHighlights/offline_workshops.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.swiper3 .slide-8 {
-    background: url("../../images/keyHighlights/assignments.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-
-
-.swiper3 .slider-buttton {
-    display: inline-block;
-}
-
-.swiper3 .swiper-slide-active .slider-sub-title {
-    animation: rollIn 1s;
-}
-
-.swiper3 .swiper-slide-active .slider-title {
-    animation: fadeInUp 1.5s;
-}
-.swiper3 .swiper-slide-active.slide-2 .slider-title {
-    animation: fadeInRight 1.5s;
-}
-.swiper3 .swiper-slide-active.slide-3 .slider-title {
-    animation: fadeInLeft 1.5s;
-}
-
-
-.swiper3 .swiper-slide-active .slider-buttton {
-    animation: zoomIn 2s;
-}
-
-@keyframes rollIn {
-   0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
-   100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
-} 
-
-
-@keyframes fadeInLeft {
-   0% {
-      opacity: 0;
-      transform: translateX(-20px);
-   }
-   100% {
-      opacity: 1;
-      transform: translateX(0);
-   }
-} 
-
-@keyframes fadeInUp {
-   0% {opacity: 0;}
-   100% {opacity: 1;} 
-} 
-
-@keyframes fadeInRight {
-   0% {
-      opacity: 0;
-      transform: translateX(20px);
-   }
-   100% {
-      opacity: 1;
-      transform: translateX(0);
-   }
-} 
-
-
-@keyframes zoomIn {
-    0% {
-        transform: scale(1,1);
-    }
-    50% {
-        transform: scale(1.2,1.2);
-    }
-    100% {
-        transform: scale(1,1);
-    }
+.logoBottom img
+{
+	width: 50%;
+	height: 100%;
 }
 .overlay2
 {
@@ -6213,4 +6023,184 @@ position: absolute !important;
 	background-color: black;
 	position: absolute;
 	opacity: 0.7;
+}
+.textBanner
+{
+	float: right; width: 40%;text-align: left; position: relative;right:5%;
+}
+.bannerImg
+{
+	width: 45%;
+	float: left;
+}
+@media screen and (max-width: 1680px)
+{
+	.textBanner
+	{
+		width: 55%;
+	}
+	.bannerImg
+	{
+		width: 50em;
+		
+		position: absolute;
+		right: 53%;
+	}
+
+	.logoBottom
+	{
+		    width: 35em;
+	    /* height: auto; */
+	    position: relative;
+	    left: 20em;
+	    top: -6em;
+	}
+	.logoBottom img
+{
+	width: 50%;
+	height: 100%;
+}
+}
+@media screen and (max-width: 1280px)
+{
+	.textBanner
+	{
+		width: 63%;
+	    left: 5%;
+	    font-size: 0.9em;
+	}
+	.bannerImg
+	{
+		width:40em;
+		
+		position: absolute;
+		right: 53%;
+	}
+	.textBanner .textH2
+	{
+		font-size: 1.3em !important;
+		top: -4.5em !important;
+	}
+		.logoBottom
+	{
+		    width: 30em;
+	     height: auto; 
+	    position: relative;
+	    left: 20em;
+	    top: -4em;
+	}
+	.logoBottom img
+{
+	width: 50%;
+	height: auto;
+}
+
+}
+@media screen and (max-width: 980px)
+{
+	.textBanner
+	{
+		width: 50%;
+	    left:15%;
+	    /*font-size: 0.9em;*/
+	}
+	.textBanner .textH2
+	{
+		top: -3em !important;
+    left: 4.5em !important;
+    
+	}
+	.bannerImg
+	{
+		width: 35em;
+	}
+			.logoBottom
+	{
+		 width: 20em !important;
+    height: auto;
+    position: relative !important;
+    /* left: 20em; */
+    /* top: -4em; */
+    top: 8.5em !important;
+    right: 0em !important;
+    left: -11em !important;
+	}
+}
+@media screen and (max-width: 949px)
+{
+	.textBanner
+	{
+		width: 50%;
+	    left:0%;
+	    /*font-size: 0.9em;*/
+	}
+				.logoBottom
+	{
+		 width: 20em !important;
+    height: auto;
+    position: relative !important;
+    /* left: 20em; */
+    /* top: -4em; */
+    top: -4em !important;
+    right: 0% !important;
+    left: 23em !important;
+	}
+}
+@media screen and (max-width: 736px)
+{
+	.bannerImg
+	{
+		width: 100%;
+		height: auto !important;
+		left: 0em;
+		right: 0em;
+		top: 80%;
+	}
+	.bannerImg img
+	{
+		height: auto !important;
+	}
+	.textBanner
+	{
+		width: 100%;
+		float: none;
+		position: relative;
+		top: 5em;
+	}
+	#banner .textBanner .textH1
+	{
+		font-size: 4.5em !important;
+	}
+	#banner .textBanner .textH2
+	{
+		    width: 100% !important;
+    top: 10em !important;
+    left: 0.2em !important;
+    font-size: 1.6em !important;
+	}
+	.logoBottom
+	{
+		display: none;
+	}
+
+	#banner .registerBtn {
+		    position: absolute;
+    top: 250%;
+    left: 0;
+	}
+}
+#banner .textBanner .textH1 br
+{
+	display: none;
+}
+@media screen and (max-width: 436px)
+{
+	#banner .textBanner .textH1
+	{
+		font-size: 3.4em !important;
+	}
+	#banner .textBanner .textH1 br
+{
+	display: block;
+}
 }
