@@ -2532,7 +2532,7 @@ footer a
 		-ms-appearance: none;
 		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: rgb(0, 164, 255);
@@ -3023,7 +3023,7 @@ footer a
 			
 			white-space: normal;
 			font-weight: 600;
-			left: 14.8em;
+			left: 15.7em;
 
 		}
 		#banner .logoNSTEBD {
@@ -3206,7 +3206,7 @@ footer a
 			line-height: 1em;
 			position: relative;
 			top: -7em;
-			left: -2%;
+			left: -0.8%;
 /*			top: -12em;
 			word-wrap: break-word;
 			right: 6.5em;
@@ -3640,11 +3640,20 @@ footer a
 		.widgets {
 			width: 100%;
 		}
+		#tab4
+		{
+			width: 100%;
+		}
 
 		.columnImages {
-			min-width: 20em;
-			max-width: 28em;
-			max-height: 20em;
+			/*position: relative;
+    top: -1em;*/
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    box-shadow: 0px !important;
 		}
 		.column h4 {
 			line-height: 1.3em;
@@ -4160,7 +4169,7 @@ display: block;
 	border: none;
 	border-radius: 0px;
 	border-bottom: solid 1px black;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 .contactFooter input::placeholder, textarea::placeholder {
 	color: black !important;
@@ -4172,6 +4181,7 @@ display: block;
 	background: transparent;
 	border: solid 1px black;
 	border-radius: 0px;
+	color: black;
 	}
 	.contactBtn {
 	width: 12em !important;
@@ -4718,17 +4728,17 @@ fieldset .action-button
 	}
 	.footer
 	{
-		top: -10em;
+		/*top: -10em;*/
 	}
 	#mapdiv
 	{
 		width: 50%;
 	}
-	.columnImages {
+/*	.columnImages {
     min-width: 10em;
     max-width: 28em;
     max-height: 10em;
-	}
+	}*/
 	.cg-1-3 
 	{
 		height: 25em;
@@ -4819,11 +4829,11 @@ fieldset .action-button
 
 	}
 	#banner .textH2 {
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
     line-height: 1em;
-    left: 2.8em;
+    left: 3.5em;
     display: flex;
-    top: -3em !important;
+    top: -3.5em !important;
 }
 
 	.logoNSTEBD
@@ -5589,14 +5599,13 @@ position: absolute !important;
 {
 	width: 100%;
 	left: 1em !important;
-	height: 30em;
+	height: 100%;
 }
 .imageSlide2
 {
-	width: 20em;
-	height: auto;
-	position: relative;
-	top: 5em;
+	width: 100%;
+	height: 100%;
+
 
 }
 .swiperDetails2
@@ -5693,6 +5702,7 @@ position: absolute !important;
     left: -1% !important;
     width: 7em !important;
     font-size: 3.6em !important;
+    top: 30% !important;
 }
 .footer-list ul li {
     padding-left: 10%;
@@ -5746,7 +5756,7 @@ position: absolute !important;
 {
 	#banner .textH2
 	{
-		left: 18.2em;
+		left: 54%;
 	}
 }
 
@@ -5756,7 +5766,7 @@ position: absolute !important;
     /*top: 16em !important;
     left: 25%;*/
     position: absolute;
-    top: 14em !important;
+    top: 16.5em !important;
     width: 100% !important;
     left: 0em !important;
 
@@ -5851,4 +5861,356 @@ position: absolute !important;
 		top: 3em;
 	}
 
+}
+.footer label
+{
+	font-size: 1em;
+	color: black !important;
+}
+.footer input
+{
+	color: black !important;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* Cards */
+.flip-box,
+.front,
+.back {
+  width: 32%;
+  height: 20em;
+/*  height: 220px;*/
+}
+
+.flip-box {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  perspective: 1000px;
+  margin-bottom: 3em;
+}
+
+.flip {
+  position: relative;
+  transition: .5s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip {
+  transform: rotateY(180deg);
+}
+
+/* Faces */
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,.5);
+  border-radius: 5px;
+  backface-visibility: hidden; /* For Firefox */
+}
+
+.front {
+  background-color: #CFD8DC;
+  /*background-image: 
+    radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+    radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);*/
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  width: 100%;
+}
+
+.back {
+  box-sizing: border-box;
+  transform: rotateY(180deg);
+  position: relative;
+  padding: 20px;
+  background: #eeeeee;
+  font-family: sans-serif;
+  line-height: 1.4em;
+  text-align: left;
+  width: 100%;
+}
+
+/* Icons */
+.icon {
+ position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.back:before {
+  content: attr(data-type); /* Playing cards in Unicode. */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 2em;
+}
+
+.back:after {
+  content: attr(data-type); /* Playing cards in Unicode. */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 2em;
+  transform: rotate(180deg);
+}
+
+.black,
+.black span {
+  color: #424242;
+}
+
+.red,
+.red span {
+  color: #424242;
+}
+@media screen and (max-width: 1280px)
+{
+	.flip-box{
+    width: 40%;
+    height: 20em;
+   
+}
+}
+@media screen and (max-width: 800px)
+{
+	.flip-box {
+    width: 70%;
+    height: 20em;
+}
+}
+@media screen and (max-width: 480px)
+{
+	.flip-box
+	{
+		width: 100%;
+	}
+}
+
+.swiperSlide2
+{
+	width: 100%;
+	height: 100% !important;
+}
+
+.swiperOverlay2
+{
+	transition: 2s ease;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+/*	border-radius: 6.5em;*/
+	opacity: 0.5;
+	background-color: black;
+}
+
+
+
+
+
+
+.swiper3 .swiper-slide {
+    min-height: 600px;
+    text-align: center;
+}
+
+.swiper3 {
+	width: 100%;
+	height: 100%;
+    position: relative;
+    left: -1em;
+}
+
+
+
+.swiper3 .slider-sub-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 9.2px;
+    color: #ffffff;
+}
+
+.swiper3 .slider-title {
+    font-size: 70px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -1.03px;
+    color: #ffffff;
+    padding: 50px 0px;
+    opacity: 1;
+}
+
+
+
+
+
+
+.swiper3 .slider-buttton {
+    font-weight: 600;
+    letter-spacing: 1.29px;
+    border: solid 1px #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+.swiper3 .slide-1 {
+    background: url("../../images/keyHighlights/accesstoinvestments.jpg");
+    width: 100%;
+    background-size: cover;
+    /*background-position: bottom;*/
+}
+
+/*.swiper3 .slide-2 {
+    background: url("../../images/keyHighlights/accesstoinvestments.jpg");
+    background-size: cover;
+    width: 100%;
+}*/
+
+.swiper3 .slide-2 {
+    background: url("../../images/keyHighlights/100hours.png");
+    background-size: 100% auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+}
+.swiper3 .slide-3 {
+    background: url("../../images/keyHighlights/feedback.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.swiper3 .slide-4 {
+    background: url("../../images/keyHighlights/certificate_of_completion.png");
+    background-size: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+}
+.swiper3 .slide-5 {
+    background: url("../../images/keyHighlights/opp_to_collaborate.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.swiper3 .slide-6 {
+    background: url("../../images/keyHighlights/peer_to_peer_learninh.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+}
+.swiper3 .slide-7 {
+    background: url("../../images/keyHighlights/offline_workshops.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.swiper3 .slide-8 {
+    background: url("../../images/keyHighlights/assignments.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.swiper3 .slider-buttton {
+    display: inline-block;
+}
+
+.swiper3 .swiper-slide-active .slider-sub-title {
+    animation: rollIn 1s;
+}
+
+.swiper3 .swiper-slide-active .slider-title {
+    animation: fadeInUp 1.5s;
+}
+.swiper3 .swiper-slide-active.slide-2 .slider-title {
+    animation: fadeInRight 1.5s;
+}
+.swiper3 .swiper-slide-active.slide-3 .slider-title {
+    animation: fadeInLeft 1.5s;
+}
+
+
+.swiper3 .swiper-slide-active .slider-buttton {
+    animation: zoomIn 2s;
+}
+
+@keyframes rollIn {
+   0% { opacity: 0; transform: translateX(-100%) rotate(-120deg); }
+   100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+} 
+
+
+@keyframes fadeInLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
+
+@keyframes fadeInUp {
+   0% {opacity: 0;}
+   100% {opacity: 1;} 
+} 
+
+@keyframes fadeInRight {
+   0% {
+      opacity: 0;
+      transform: translateX(20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
+
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.overlay2
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.7;
 }
