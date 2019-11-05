@@ -8,6 +8,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+
+
+
+
+
 /* Reset */
 	figure {
 		text-align: center;
@@ -1722,7 +1727,7 @@
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 0;
 		border: solid 1px #dbdbdb;
-		font-family: "Courier New", monospace;
+		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1730,7 +1735,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2019,7 +2024,7 @@
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2084,7 +2089,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2207,7 +2212,7 @@ footer a
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2956,7 +2961,7 @@ footer a
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3336,7 +3341,7 @@ footer a
 			position: relative;
 			top: -2.5em;
 			left: -0.5em !important;
-			width: 100% !important;
+			width: 90% !important;
 		}
 
 		#banner .textH1 {
@@ -3417,7 +3422,7 @@ footer a
 			height: auto;
 			float: right;
 			position: relative;
-			top: 4em !important;
+			top: 3em !important;
 			left: -0.5em !important;
 			width: 100% !important;
 
@@ -3586,7 +3591,8 @@ footer a
 			left: 20%;
 		}
 		#tab3 {
-			height: auto;
+			background-color: white;
+			height: 40em;
 			/*z-index: 200;*/
 			/*background-color: transparent;*/
 		}
@@ -4597,7 +4603,7 @@ fieldset h2
 	width: 100%;
 	height: 2em;
 	box-sizing: border-box;
-	font-family: montserrat;
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 	color: #2C3E50;
 	font-size: 13px;
 	width: 90%;
@@ -4751,7 +4757,7 @@ fieldset .action-button
 	}
 	#tab3
 	{
-		height: auto;
+		/*height: auto;*/
 	}
 }
 
@@ -5917,7 +5923,7 @@ position: absolute !important;
   position: relative;
   padding: 20px;
   background: #eeeeee;
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   line-height: 1.4em;
   text-align: left;
   width: 100%;
@@ -6268,5 +6274,205 @@ position: absolute !important;
 	{
 		position: relative;
 		left: 10em;
+	}
+}
+.swiper3
+{
+	width: 100%;
+	left: -1em;
+	height: 100%;
+}
+.slide2
+{
+	width: 100%;
+	height: 100% !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slide2Overlay
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+	
+}
+.swiper-slide-active .slide2Overlay
+{
+	animation: blinkInOut 1s;
+}
+.slide2Note
+{
+	width: 30em;
+	height: 30em;
+	background-color: white;
+	position: relative;
+	opacity: 0.5;
+	border-radius: 30em;
+
+}
+.slideP
+{
+	color: black;
+	font-size: 1.5em;
+	font-weight: 600;
+	animation: sizeBlink 1.3s;
+}
+.swiper-slide-active .slide2Note
+{
+	animation: blinkInOut 1.3s;
+}
+.feeStruct
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	box-shadow: 3px 6px 9px 0px lightgrey;
+	padding: 0px 0px 0px 0px;
+}
+.feeHighlights
+{
+	width: 50%;
+	height: 75%;
+	float: left;
+	position: relative;
+	background-color: #6cc091;
+	padding-right: 1em;
+}
+.feeBox
+{
+	width: 50%;
+	height: 75%;
+	float: right;
+	background-color: white;
+	position: relative;
+	background-position: center;
+}
+.feeDetails
+{
+	height: 25%;
+	width: 100%;
+	position: relative;
+}
+.feeList li
+{
+	text-align: left;
+	color: black;
+	font-size: 1.3em;
+	line-height: 1.15em;
+	margin-top: 0.8em;
+
+}
+.feeList
+{
+	padding-left: 2em;
+}
+@media screen and (max-width: 1280px)
+{
+	.feeHighlights h3
+	{
+		font-size: 1.5em !important;
+	}
+	.feeHighlights li
+	{
+		font-size: 1.2em;
+		line-height: 1.05em;
+		margin-top: 0.5em;
+	}
+
+}
+@media screen and (max-width: 980px)
+{
+	.feeHighlights
+	{
+		display: none;
+	}
+	.feeBox
+	{
+		width: 100%;
+		height: 50%;
+		float: right;
+		background-color: white;
+		position: relative;
+	}
+	.feeDetails
+	{
+		height: 20%;
+		width: 100%;
+		position: relative;
+	}
+	.feeStruct
+	{
+		height: auto;
+	}
+	.feeDetails h4
+	{
+		font-size: 1.2em;
+	}
+	.feeDetails p
+	{
+		
+		top: -3em !important;
+	}
+}
+@media screen and (max-width: 1680px) and (min-width: 1281px)
+{
+		#banner .capriaLogo {
+		right: -15em !important;
+	}
+}
+
+@media screen and (max-width: 736px)
+{
+	.feeDetails p
+	{
+		
+		top: -3em !important;
+	}
+}
+
+
+@media screen and (max-width: 480px)
+{	.feeDetails h4 
+	{
+	    font-size: 1em;
+	    white-space: pre-wrap;
+	}
+	.feeDetails p
+	{
+		margin: 0px 0px 0px 0px;
+		top: -1em !important;
+	}
+	.swiperDetails
+	{
+		top: 6em !important;
+	}
+	.swiperDetails h4
+	{
+		font-size: 1em;
+	}
+}
+
+@keyframes blinkInOut {
+  from {width: 0px;
+  	height: 0px;}
+  50% {width: 10em !important;
+  	height: 10em;
+  	border-radius: 10em;} /* ignored */
+  to {width: 20em !important;
+  	height: 20em !important;
+  	border-radius: 20em !important;}
+}
+@keyframes sizeBlink
+{
+	from{
+		font-size: 0px;
+	}
+	50% {
+		font-size: 0em;
+	}
+	to: {
+		font-size: 1.2em;
 	}
 }
