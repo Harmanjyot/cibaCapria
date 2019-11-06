@@ -3572,6 +3572,7 @@ footer a
 				margin-top: 0em;
 				position: relative;
 				top: -5em;
+				overflow: hidden;
 				/*margin: 1em;*/
 				padding: 0em;
 				/*position: absolute;
@@ -6043,7 +6044,7 @@ position: absolute !important;
 }
 .logoBottom img
 {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 }
 .overlay2
@@ -6087,7 +6088,7 @@ position: absolute !important;
 	}
 	.logoBottom img
 {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 }
 }
@@ -6121,7 +6122,7 @@ position: absolute !important;
 	}
 	.logoBottom img
 {
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
 
@@ -6500,7 +6501,7 @@ position: absolute !important;
 	{
 		/*left: -23%;*/
 		width: 50%;
-		font-size: 2em;
+		font-size: 1.5em;
 		left: 0em !important;
 	}
 }
@@ -6531,7 +6532,7 @@ position: absolute !important;
 	}
 	.slideP
 	{
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 }
 
@@ -6705,5 +6706,92 @@ position: absolute !important;
 	height: 30% !important;
 	top: 2.3em !important;
 /*    top: -5em !important;*/
+	}
+}
+.instrData
+{
+	display: none;
+}
+.tabInstructors:hover .instrData
+{
+	/*position: absolute;*/
+	display: inline-block;
+	width: 40em;
+	height: auto;
+	background-color: white;
+	position: relative;
+	/*box-shadow: 2px 2px 3px lightgrey;*/
+}
+
+
+
+
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 30em;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 200;
+  /*bottom: 125%;*/
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.popuptext p
+{
+	top: 1em;
+}
+@media screen and (max-width: 980px)
+{
+	.headerBlk2 h2
+	{
+		position: relative;
+		top: -1em;
 	}
 }
