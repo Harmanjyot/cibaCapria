@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+SITEMAP: http://https://ciba.org.in/programs/sitemap.xml

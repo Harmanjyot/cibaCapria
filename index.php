@@ -20,6 +20,15 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<script src="https://kit.fontawesome.com/befb6dabc5.js" crossorigin="anonymous"></script>
 		<link rel = "icon" href = "images/icon.png" type = "image/x-icon">
+		 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99566883-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-99566883-3');
+</script>
 <!-- 		<link rel="stylesheet" href="assets/css/style.css" /> -->
 
 	</head>
@@ -29,8 +38,8 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<img src="images/cibalogoblack_A0_Rectangle_33_pattern.png" alt="logo" class="logo">
-					<img src="images/catalyzed_and_supported_A0_Rectangle_35_pattern@2x.png" alt="logo" class="logo2">
+					<img src="images/cibalogoblack_A0_Rectangle_33_pattern-min.png" alt="logo" class="logo">
+					<img src="images/catalyzed_and_supported_A0_Rectangle_35_pattern@2x-min.png" alt="logo" class="logo2">
 					<nav id="nav">
 						<a href="#">Home</a>
 						<a href="#footref">About Us</a>
@@ -45,8 +54,7 @@
 						</div>
 						<a href="#instructorsRef">Instructors</a>
 						<a href="#contactRef">Contact</a>
-						
-						<a href="#contactRef"><button class="registerBtn">I'm Interested</button> </a>
+						<a href="#" ><form action="enrolNow.php" target="_blank" method="post"><button class="registerBtn headbtn">Enroll Now</button></form></a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -58,13 +66,13 @@
 
 					<div class="flex">
 						<div>
-						<img src="images/black2.png"  class="capriaLogo">
+						<img src="images/black2-min.png"  class="capriaLogo">
 						</div>
 
 						<div class="imgIndexBack">
 							<!-- <div id="mobiTop"></div> -->
 							<div class="bannerImg">
-								<img src="images/cover2.jpg" class="imagesIndex">
+								<img src="images/cover5-min (1).png" class="imagesIndex">
 							</div>
 							
 							<div class="textBanner"><h2 class="textH1">Entrepreneurship Foundation <br>Program</h2><h4 class="textH2">Program Starts: 6<sup>th</sup> December 2019</h4></div>
@@ -74,7 +82,7 @@
 						</div>
 						<div class="logoBottom">
 								<!-- <img src="images/catalyzed_and_supported_A0_Rectangle_35_pattern@2x.png" style="float: left;"> -->
-								<img src="images/cibawithdstblack.png" style="float: right;">
+								<img src="images/cibawithdstblack-min.png" style="float: right;">
 						</div>
 						<form action="#contactRef">
 								<button class="registerBtn">I'm Interested</button>
@@ -85,7 +93,7 @@
 
 			</section>
 <!-- <h2>Key Highlights</h2> -->
-<div class="container" style="width: 100%;">
+<div class="container slideContainertop" style="width: 100%;">
 
 	<div class="row" style="width: 100%; margin: 0px 0px 0px 0px;">
 
@@ -95,14 +103,14 @@
 
 									  <div class="swiper-container swiper3" style="overflow: hidden;">
     <div class="swiper-wrapper">
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/accesstoinvestments.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Access to Investors, Mentors and entrepreneurs from the Startup Ecosystem.</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/100hours.png'); "><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">100+ hours of collective Online and Offline learning.</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/feedback.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Personalised Feedback on Assignments.</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/offline.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Hands-on experiential workshops to validate your ideas.</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/certificate.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Program Completion Certificate by (CIBA & CapriaVBC) </div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/peer_to_peer_learninh.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Peer to peer learning</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/assignments.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Case-studies and assignments.</div></div>
-      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/b022q-3l5ei.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Collaborative learning experience </div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/accesstoinvestments-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Access to Investors, Mentors and entrepreneurs from the Startup Ecosystem.</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/100hours-min.png');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">100+ hours of collective Online and Offline learning.</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/feedback-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Personalised Feedback on Assignments.</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/offline-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Hands-on experiential workshops to validate your ideas.</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/certificate-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Program Completion Certificate by (CIBA & Capria VentureBasecamp) </div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/peer_to_peer_learninh-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Peer to peer learning</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/assignments-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Case-studies and assignments.</div></div>
+      <div class="swiper-slide slide2" style="background-image: url('images/keyHighlights/b022q-3l5ei-min.jpg');"><div class="slide2Overlay"></div><div class="slide2Note"></div><div class="slideP">Collaborative learning experience </div>
 </div>
     </div>
     <!-- Add Pagination -->
@@ -144,7 +152,7 @@
 						    		<h2 style="text-align: left; font-size: 3em;"><b>Program Overview</b></h2><br>
 							        <p>The 6-week Entrepreneur Foundation program built in partnership with Capria VentureBasecamp gives you access to the right tools, resources and frameworks that will help you master the science behind the ‘magic’ of successful revenue-generating businesses.
 								 
-The focus of the program is to help you acquire the knowledge, skills and attitude for as you begin your entrepreneurial journey.</p>
+The focus of the program is to help you acquire the right knowledge, skills and attitude as you begin your entrepreneurial journey.</p>
 						    	</div>
 						    	
 </div>
@@ -243,7 +251,7 @@ The focus of the program is to help you acquire the knowledge, skills and attitu
 						    	 <div style="float: right; font-size: 1.5em; font-weight: 1000;">
 						    	 	Week 6
 						    	 </div>
-						    	 <img src="images/Rectangle_745@2x.png" id="progBar">
+						    	 <img src="images/Rectangle_745@2x-min.png" id="progBar">
 						    	 
 						    	   <div class="grid progCol">
 								    <div class="cg-1-6">Sharpen your problem</div>
@@ -306,40 +314,62 @@ INR 25,000*</h4><br><p style="position: relative;
 									<div class="feeHighlights">
 										<h3 style="font-weight: 600; color: black;">How You Benefit From This Program</h3>
 										<ul class="feeList">
-											<li>Personalised logins to online program content.</li>
+											<li>Personalised Logins to Online Program Content.</li>
 											<li>40+ Hours of Online Learning.</li>
+											<li>20+ Hours of Offline Workshops (Over the Weekend).</li>
 											<li>Access to Startup focused Case Studies and Assignments.</li>
 											<li>Personalised Feedback on Assignments.</li>
-											<li>One-on-one mentor sessions with Industry Experts.</li>
-											<li>Capria VentureBasecamp frameworks, toolkits and canvases for each topic.</li>
-											<li>Certificate by CIBA ( Government of India, Department of Science and Technology) & Capria VBC (Silicon Valley-based Venture Capitalist firm).</li>
-											<li>Opportunity to collaborate and engage with fellow entrepreneurs, investors and key partners from the ecosystem.</li>
+											<li>One-on-one Mentor Sessions with Industry Experts.</li>
+											<li>Capria VentureBasecamp Frameworks, Toolkits and Canvases for each Topic.</li>
+											<li>Certificate by CIBA ( Government of India, Department of Science and Technology) & Capria VentureBasecamp (Silicon Valley-based Venture Capital firm).</li>
+											<li>Opportunity to Collaborate and Engage with Fellow Entrepreneurs, Investors and Key-Partners from the Ecosystem.</li>
 										</ul>
 									</div>
 									<div class="feeBox" style="z-index: 500;">
 										<h2 style="font-weight: 600;">I'm Interested in this Program</h2>
-										<form class="contactFooter nonFooter" action='https://forms.zohopublic.com/cibamumbai/form/ContactForm/formperma/mp-XSNiOu3eI5YfcARKIv5pM1gHAr8-qKvsKOirQyjI/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data' >
-<input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+										<form class="contactFooter nonFooter" name='form' id='form' enctype='multipart/form-data'>
+	<!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+	<!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+	<!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+
+
+
+	<input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder ="First Name" id="fName" />
+
+<input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" id="lName" />
+<input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Phone Number" />
+
+<input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email ID" />
+
+	<input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company/Startup Name (Leave blank if not applicable) " />
+
+	<!--Multi Line-->
+	<textarea style="height: 6em;" name="MultiLine" maxlength="65535" placeholder="Leave us a few words"></textarea>
+
+	<div class="razorpay-embed-btn" data-url="https://rzp.io/l/MHI7kQs" data-text="Enroll Now" data-color="#528FF0" data-size="medium">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+<!-- 										<form class="contactFooter nonFooter" action='https://forms.zohopublic.com/cibamumbai/form/ContactForm/formperma/mp-XSNiOu3eI5YfcARKIv5pM1gHAr8-qKvsKOirQyjI/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data' >
+<input type="hidden" name="zf_referrer_name" value="">
+<input type="hidden" name="zf_redirect_url" value="">
+<input type="hidden" name="zc_gad" value="">
 
 <p></p>
-<!--Name-->
-<!-- <label>Full name
-<em>*</em>
-</label> -->
-<!-- <label>First</label> -->
 <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder ="First Name" />
 
 <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
-<!--Phone-->
-
 <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Phone Number" />
-<!--Email-->
+
 <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email ID" />
-<!--Multi Line-->
+
 <textarea style="height: 6em;" name="MultiLine" maxlength="65535" placeholder="Leave us a few words"></textarea>
-<button style="left: 0em !important;" type="submit" class="contactBtn"><em>Submit</em></button></form>
+<button style="left: 0em !important;" type="submit" class="contactBtn"><em>Submit</em></button></form> -->
 									</div>
 								</div>
 							</div>
@@ -397,11 +427,11 @@ INR 25,000*</h4><br><p style="position: relative;
     <div class="flip">
       <!-- Front -->
       <div class="front">
-      	<img class="columnImages" src="images/ID5d848232073ec_A10_Rectangle_330_pattern.png">
+      	<img class="columnImages" src="images/ID5d848232073ec_A10_Rectangle_330_pattern-min.png">
       </div>
       <!-- Back -->
       <div class="back black">
-        <span class="icon">One-on-one mentor sessions with Industry Experts</span>
+        <span class="icon">One-on-one Mentor Sessions with Industry Experts</span>
       </div>
     </div>
   </figure>
@@ -410,7 +440,7 @@ INR 25,000*</h4><br><p style="position: relative;
     <div class="flip">
       <!-- Front -->
       <div class="front">
-      	<img src="images/ID5d84812c599a9_A3_Rectangle_116_pattern.png" class="columnImages">
+      	<img src="images/ID5d84812c599a9_A3_Rectangle_116_pattern-min.png" class="columnImages">
       </div>
       <!-- Back -->
       <div class="back red">
@@ -423,7 +453,7 @@ INR 25,000*</h4><br><p style="position: relative;
     <div class="flip">
       <!-- Front -->
       <div class="front">
-      	<img src="images/ID5d84816e54144_A10_Rectangle_340_pattern.png" class="columnImages">
+      	<img src="images/ID5d84816e54144_A10_Rectangle_340_pattern-min.png" class="columnImages">
       </div>
       <!-- Back -->
       <div class="back red">
@@ -436,7 +466,7 @@ INR 25,000*</h4><br><p style="position: relative;
   <figure class="flip-box">
     <div class="flip">
       <!-- Front -->
-      <div class="front"><img class="columnImages" src="images/ID5d84809bb768a_A10_Rectangle_336_pattern.png"></div>
+      <div class="front"><img class="columnImages" src="images/ID5d84809bb768a_A10_Rectangle_336_pattern-min.png"></div>
       <!-- Back -->
       <div class="back black">
         <span class="icon">Personalised Feedback on Assignments</span>
@@ -447,10 +477,10 @@ INR 25,000*</h4><br><p style="position: relative;
   <figure class="flip-box">
     <div class="flip">
       <!-- Front -->
-      <div class="front"><img src="images/ID5d848033adb10_A2_Rectangle_79_pattern.png" class="columnImages"></div>
+      <div class="front"><img src="images/ID5d848033adb10_A2_Rectangle_79_pattern-min.png" class="columnImages"></div>
       <!-- Back -->
       <div class="back red">
-        <span class="icon">Access to offline and online workshops</span>
+        <span class="icon">Access to Offline and Online workshops</span>
       </div>
     </div>
   </figure>
@@ -458,10 +488,10 @@ INR 25,000*</h4><br><p style="position: relative;
     <figure class="flip-box">
     <div class="flip">
       <!-- Front -->
-      <div class="front"><img src="images/ID5d848033adb10_A10_Rectangle_334_pattern.png" class="columnImages"></div>
+      <div class="front"><img src="images/ID5d848033adb10_A10_Rectangle_334_pattern-min.png" class="columnImages"></div>
       <!-- Back -->
       <div class="back red">
-        <span class="icon">Capria Venture Basecamp frameworks, toolkits and canvases for each topic.</span>
+        <span class="icon">Capria VentureBasecamp Frameworks, Toolkits and Canvases for each Topic</span>
       </div>
     </div>
   </figure>
@@ -530,14 +560,16 @@ INR 25,000*</h4><br><p style="position: relative;
               <img src="images/Ellipse_6_A0_Ellipse_18_pattern.png">
               <footer>Dan Kranzler</footer>
               <footer>Senior Partner - Capria</footer>
-              <span class="popuptext" id="myPopup1"></span>
+              <span class="popuptext" id="myPopup1"><p>Dan Kranzler is a veteran startup entrepreneur and venture investor with 45 years’ experience in over 200 startups. He is currently the Managing Partner of eFund, LLC an early-stage funder of innovative technology startups. At Capria, Dan is a Senior Partner and spends his time advising impact funds and startups across Africa, Europe and Asia. Through VentureBasecamp, Dan is on a mission to spur entrepreneurship and livelihoods for a safe and sustainable future for children.</p></span>
           </div>
           <div class="col-3 tabInstructors popup" onclick="myFunction2()">
           	<!-- <h2>Classroom Session Instructors</h2> -->
               <img src="images/prasadmenon_414x412_A0_Ellipse_20_pattern.png">
               <footer>Prasad Menon</footer>
               <footer>CEO - CIBA Mumbai</footer>
-              <span class="popuptext" id="myPopup2"></span>
+              <span class="popuptext" id="myPopup2">
+              	<p>For over two decades, Prasad worked across 3 different continents in FMCG, Retail & Technology with industry leaders like PerfettiVanMelle, Liz Claiborne, Nokia & Reliance Brands. He is the CEO of Centre for Incubation and Business Acceleration (CIBA) in Mumbai incubating 20+ tech startups. He is a mentor & advisor to several startups. As Adjunct Faculty at Fr.Agnels Business School, University of Mumbai, he teaches MBA students for courses on Entrepreneurship, Creativity & Innovation.</p>
+              </span>
           </div>
           <div class="col-3 tabInstructors popup" onclick="myFunction3()">
           	
@@ -546,12 +578,7 @@ INR 25,000*</h4><br><p style="position: relative;
               <footer>Saurabh Sinha</footer>
               <footer>CEO, Rein Labs</footer>
               <span class="popuptext" id="myPopup3">
-              	<p>A serial social entrepreneur, Saurabh is passionate about rekindling the spirit of Innovation in people to enable them to solve social challenges.
-
-Through REIN Labs, he and his team are focused on partnering individuals and organizations in their Research, Innovation and Incubation pursuits. To foster an environment of innovation and research at an early age in children, they are partnering a network of colleges in Navi Mumbai to run their incubation cells with a focused syllabus. They are deeply involved in helping potential entrepreneurs move their ideas to a minimum viable product stage.
-Some of the sectors he and his team support are Education, Farming, IOT, Dairy, Fine arts of India.
-
-In his work ex of over 18 years spanning manufacturing and ecommerce, Saurabh set up the Digital Retail Solutions practice for Ugam and Datamatics. He has incubated some of the leading Merchandizing analytics platforms, Digital marketing tools and Digital content solutions and that have been used widely in the ecommerce industry in the US. He has worked closely with Merch ops, Digital marketing and Analytics teams of Target, ebay, Walmart, Staples, Sears, GAP, Williams Sonoma, Office Depot, Office Max, Costco and Home Depot to name a few.</p>
+              	<p>A serial social entrepreneur, Saurabh founded Rein Labs which is deeply involved in helping potential entrepreneurs move their ideas to a minimum viable product stage. In the past 18 years, Saurabh has set up Digital Retail Solutions practice for Ugam and Datamatics. He has incubated some of the leading Merchandising analytics platforms and Digital marketing tools having worked closely with teams of Target, eBay, Walmart, Staples, Sears, GAP, Williams Sonoma, Costco and Home Depot.</p>
               </span>
           </div>
           <div class="col-3 tabInstructors popup" onclick="myFunction4()">
@@ -560,9 +587,7 @@ In his work ex of over 18 years spanning manufacturing and ecommerce, Saurabh se
               <footer>Shashank Randev</footer>
               <footer>Founder VC, 100X.VC</footer>
               <span class="popuptext" id="myPopup4">
-              	<p>Shashank brings entrepreneurial and investment understanding with 15+ years of cross-functional expertise. He has acquired a depth and breadth of experience from having worked in large companies, a startup (acquired by a Fortune 500 Company) and an early-stage fund investing in technology-enabled startups.
-
-Shashank is Founder VC at 100X.VC - India's first venture fund to invest in early-stage startups using iSAFE - India SAFE Notes. Additionally, he is a Member of the Executive Committee at People of Indian Origin Chamber of Commerce and Industry (PIOCCI) - an organization that works with reputed Indian diaspora entrepreneurs, investors, PIOs and associations across the globe. He is also an Angel Investor and Advisor with a keen interest in B2B emerging technology startups.</p>
+              	<p>Shashank is Founder VC at 100X.VC - India's first venture fund to invest in early-stage startups using iSAFE - India SAFE Notes. He is an Angel Investor and Advisor with a keen interest in B2B emerging technology startups. He brings entrepreneurial and investment understanding with 15+ years of cross-functional expertise having worked in large companies, a startup (acquired by a Fortune 500 Company) and an early-stage fund investing in technology-enabled startups.</p>
               </span>
           </div>
           <div class="col-3 tabInstructors popup" onclick="myFunction5()">
@@ -570,7 +595,9 @@ Shashank is Founder VC at 100X.VC - India's first venture fund to invest in earl
               <img src="images/Ellipse_62_A0_Ellipse_24_pattern.png">
               <footer>Ishan Nadkarni</footer>
               <footer>Founder, Impact App</footer>
-              <span class="popuptext" id="myPopup5"></span>
+              <span class="popuptext" id="myPopup5">
+              	<p>Ishan is a health-tech plus social entrepreneur. He has acquired a depth and breadth of experience from having worked briefly in an MNC, and for 3 years in a hyper-growth startup. He is Cofounder of Impact App - India's first fitness plus kindness app. The impact is a community of 250,000 changemakers who have walked and jogged together for more than 2 Crore kilometres to raise more than Rs 15 Crores for various social causes.</p>
+              </span>
           </div>
 
       </div>
@@ -584,7 +611,7 @@ Shashank is Founder VC at 100X.VC - India's first venture fund to invest in earl
   	</div>
   	<div class="row endText2">
   		<br><br>
-  		<h2 style="padding-left: 1em;">About Capria Venture Basecamp</h2>
+  		<h2 style="padding-left: 1em;">About Capria VentureBasecamp</h2>
   		<p>Capria VentureBasecamp upskills startups through a unique methodology and training program developed by veteran entrepreneurs who know what it takes to run successful ventures. Their team of experts has a combined experience of 200+Startups built & funded,  $20 Bn Market Capitalization and worked for 70+Years in the startup ecosystem. </p>
   	</div>
   	<hr><br><br>
@@ -626,7 +653,7 @@ Shashank is Founder VC at 100X.VC - India's first venture fund to invest in earl
 								    <div class="swiper-wrapper">
 								        <!-- Slides -->
 								        <div class="swiper-slide">
-								        	<img src="images/Sundararajan_Srinivasan.jpeg" class="imageSlide">
+								        	<img src="images/Sundararajan_Srinivasan-min.jpeg" class="imageSlide">
 								        	<div class="swiperOverlay">
 								        		
 								        	</div>
@@ -638,18 +665,18 @@ Shashank is Founder VC at 100X.VC - India's first venture fund to invest in earl
 								        	
 								        </div>
 								        <div class="swiper-slide">
-								        	<img src="images/amitsrivastava.jpg" class="imageSlide">
+								        	<img src="images/amitsrivastava-min.jpg" class="imageSlide">
 								        	<div class="swiperOverlay">
 								        		
 								        	</div>
 								        	<div class="swiperDetails">
-								        		<p>“I have been exploring several resources in strengthening the startup journey. VBC has been a great tool for me to understand various parameters that actually helped me strengthen my deck and understanding more my startup. Workshops have been great efforts from our incubator.”</p>
+								        		<p>“I have been exploring several resources in strengthening the startup journey. VentureBasecamp has been a great tool for me to understand various parameters that actually helped me strengthen my deck and understanding more my startup. Workshops have been great efforts from our incubator.”</p>
 								        		<h3>Amit Srivastav</h3>
 								        		<h4>CEO, Pixean</h4>
 								        	</div>
 								        </div>
 								         <div class="swiper-slide">
-								        	<img src="images/Prajwal_Ajay.jpeg" class="imageSlide">
+								        	<img src="images/Prajwal_Ajay-min.jpeg" class="imageSlide">
 								        	<div class="swiperOverlay">
 								        		
 								        	</div>
@@ -661,14 +688,25 @@ Shashank is Founder VC at 100X.VC - India's first venture fund to invest in earl
 								        </div>
 
 								        <div class="swiper-slide">
-								        	<img src="images/harshala.jpeg" class="imageSlide">
+								        	<img src="images/harshala-min.jpeg" class="imageSlide">
 								        	<div class="swiperOverlay">
 								        		
 								        	</div>
 								        	<div class="swiperDetails">
-								        		<p>"The workshops have been great with several points being discussed in a structured manner.  VBC courses are detailed and make complex concepts simple to understand"</p>
+								        		<p>"The workshops have been great with several points being discussed in a structured manner.  VentureBasecamp courses are detailed and make complex concepts simple to understand"</p>
 								        		<h3>Harshala Chavan</h3>
 								        		<h4>Founder, Readsnet</h4>
+								        	</div>
+								        </div>
+								        <div class="swiper-slide">
+								        	<img src="images/IMG-20191107-WA0025.jpg" class="imageSlide">
+								        	<div class="swiperOverlay">
+								        		
+								        	</div>
+								        	<div class="swiperDetails">
+								        		<p>"The VentureBasecamp course was a great way to take a step back from the daily grind and introspect and evaluate aspects of our business that we tend to not invest enough time into. As someone who believes that one never stops learning, the fine blend of theory lessons interspersed with workshops was a great way to grasp the various concepts taught. Thank you Capria VentureBasecamp and CIBA for this initiative. Highly recommended!"</p>
+								        		<h3>Surya Pillai</h3>
+								        		<h4>Director, Odigo Digital</h4>
 								        	</div>
 								        </div>
 								        <!--
@@ -930,9 +968,7 @@ sagar.chandni@ciba.org.in</p>
 			</footer> -->
 			<div class="container footer" id="contactRef">
 				<div class="row inner">
-					<br>
 					<h2>Contact Us</h2>
-
 				</div>
 				<div class="row inner">
 					<!-- form class="contactFooter">
@@ -942,7 +978,7 @@ sagar.chandni@ciba.org.in</p>
 						<button class="contactBtn">Send</button>
 					</form> -->
 				
-				
+<!-- 				
 
 
 
@@ -956,31 +992,50 @@ sagar.chandni@ciba.org.in</p>
 
 
 <form class="contactFooter" action='https://forms.zohopublic.com/cibamumbai/form/ContactForm/formperma/mp-XSNiOu3eI5YfcARKIv5pM1gHAr8-qKvsKOirQyjI/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
-<input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+<input type="hidden" name="zf_referrer_name" value="">
+<input type="hidden" name="zf_redirect_url" value="">
+<input type="hidden" name="zc_gad" value="">
 
-<p></p>
-<!--Name-->
-<!-- <label>Full name
-<em>*</em>
-</label> -->
-<!-- <label>First</label> -->
 <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder ="First Name" />
 
 <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
-<!--Phone-->
+
 
 <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Phone Number" />
-<!--Email-->
+
 <input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email ID" />
-<!--Multi Line-->
+
 <textarea name="MultiLine" maxlength="65535" placeholder="Leave us a few words"></textarea>
 <button type="submit" class="contactBtn"><em>Submit</em></button></form>
 
 
+ -->
+<form class="contactFooter" action='https://forms.zohopublic.com/cibamumbai/form/ContactForm/formperma/mp-XSNiOu3eI5YfcARKIv5pM1gHAr8-qKvsKOirQyjI/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+<input type="hidden" name="zf_referrer_name" value="">
+<input type="hidden" name="zf_redirect_url" value="">
+<input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder ="First Name" />
+
+<input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Last Name" />
 
 
+<input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=true maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Phone Number" />
+
+<input type="text" maxlength="255" name="Email" value="" fieldType=9 placeholder="Email ID" />
+
+<input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="Company/Startup Name (Leave blank if not applicable)" />
+
+
+<label style="color: #555;">What stage is your startup in?</label>
+
+<select name="Dropdown"><option selected="true" value="-Select-" style="border: none; border-bottom: 2px black;">-Select-</option>
+<option value="Going&#x20;to&#x20;start&#x20;in&#x20;the&#x20;next&#x20;3-6&#x20;months">Going to start in the next 3-6 months</option>
+<option value="Started&#x20;as&#x20;a&#x20;side&#x20;hustle">Started as a side hustle</option>
+<option value="Operating&#x20;full-time&#x20;&#x28;&lt;1year&#x29;">Operating full-time &#x28;&lt;1year&#x29;</option>
+<option value="Operating&#x20;full-time&#x20;&#x28;&gt;1year&#x29;">Operating full-time &#x28;&gt;1year&#x29;</option>
+<option value="None&#x20;of&#x20;the&#x20;above">None of the above</option>
+</select>
+<textarea name="MultiLine" maxlength="65535" placeholder="Leave us a few words" style="margin-top: 2em;"></textarea>
+<button type="submit" style="margin-top: 1.5em;"><em>Submit</em></button></form>
 
 
 
@@ -1031,7 +1086,7 @@ sagar.chandni@ciba.org.in</p>
 	<div class="row">
 							<div class="mapIcons">
 					<div class="col-3 geoLoc">
-						<img src="images/location_A0_Rectangle_18_pattern.png"><br>
+						<img src="images/location_A0_Rectangle_18_pattern-min.png"><br>
 						<p>CIBA
 6th Floor, Agnel Technical 
 Education Complex,
@@ -1040,19 +1095,19 @@ Vashi, Navi Mumbai
 						</p>
 					</div>
 					<div class="col-3 geoLoc">
-						<img src="images/message_A0_Rectangle_20_pattern.png"><br>
+						<img src="images/message_A0_Rectangle_20_pattern-min.png"><br>
 						<p>Mumbai@ciba.org.in
 sagar.chandni@ciba.org.in</p>
 					</div>
 					<div class="col-3 geoLoc">
-						<img src="images/phone_A0_Rectangle_22_pattern.png"><br>
+						<img src="images/phone_A0_Rectangle_22_pattern-min.png"><br>
 						<p>022 2777100 Ext 530</p>
 					</div>
 				</div>
 				<div class="footer-list">
 					<ul>
 						<li><a href="http://ciba.org.in/mumbai" target="_blank">About CIBA</a></li>
-						<li><a href="https://venturebasecamp.co/" target="_blank">About Capria Venture Basecamp</a></li>
+						<li><a href="https://venturebasecamp.co/" target="_blank">About Capria VentureBasecamp</a></li>
 						<li><a href="http://ciba.org.in/mumbai/blog" target="_blank">CIBA (Blog)</a></li>
 						<li><a href="https://venturebasecamp.co/product/quantum-assessment-tool/" target="_blank">12 Critical Success Elements</a></li>
 					</ul>

@@ -1986,7 +1986,7 @@
 		/*background: #6cc091;*/
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #8dcca9;
+		border: solid 1px black;
 		color: #fff;
 		display: block;
 		outline: 0;
@@ -2066,7 +2066,7 @@
 		appearance: none;
 		display: block;
 		float: left;
-		margin-right: -2em;
+		margin-right: -1em;
 		opacity: 0;
 		width: 1em;
 		z-index: -1;
@@ -2113,16 +2113,14 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			/*background: #6cc091;
-			border-color: #6cc091;*/
-			color: #ffffff;
+
+			color: #555;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			/*border-color: #6cc091;
-			box-shadow: 0 0 0 1px #6cc091;*/
+
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2984,10 +2982,11 @@ footer a
 
 	#banner {
 		padding: 5em 0 9em 0;
-		background-image: url(../../images/Group_689@2x.png);
+		background-image: url(../../images/Group_689@2x-min.png);
 		background-size: 80%;
-
-		background-position: right;
+		background-position-x: -300%;
+		background-position-y: 5%;
+		
 		/*background-attachment: fixed;*/
 		background-repeat: no-repeat;
 		text-align: center;
@@ -3297,7 +3296,9 @@ footer a
 			left: 80% !important;
 		}
 		#banner .registerBtn {
-			
+			position: relative;
+			left: 13em;
+			top: 1.5em;
 		}
 		#banner .imagesIndex {
 			width: 100%;
@@ -3327,19 +3328,27 @@ footer a
 				}
 
 		}
+		@media screen and (max-width: 949px)
+		{
+			#banner .registerBtn {
+			left: 5em;
+			}
+		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
 				padding: 4em 0 3em 0;
 				height: 60em;
+				    background-position-x: 350%;
+    background-position-y: 30%;
 			}
 			#banner .capriaLogo {
 			width: 15%;
 			height: auto;
 			float: right;
 			position: relative;
-			top: -2.5em;
+			top: -1em !important;
 			left: -0.5em !important;
 			width: 90% !important;
 		}
@@ -3378,7 +3387,7 @@ footer a
 			height: auto;
 			float: left;
 			position: relative;
-			top: 25em;
+			top: 18em;
 			left: -0.5em !important;
 		}
 
@@ -3422,7 +3431,7 @@ footer a
 			height: auto;
 			float: right;
 			position: relative;
-			top: 3em !important;
+			top: 1.5em !important;
 			left: -0.5em !important;
 			width: 100% !important;
 
@@ -3982,7 +3991,7 @@ footer a
 .swiper-container {
     position:relative;
     width: 60em;
-    height: 23em;
+    height: 25em;
     left: 8em;
 }
 .swiper-container > .swiper-slide__content {
@@ -5395,6 +5404,7 @@ position: absolute !important;
 	.seperatorVertical
 	{
 		margin-bottom: 5em;
+		border-bottom: none;
 	}
 	.innerMidPage
 	{
@@ -5512,8 +5522,9 @@ position: absolute !important;
 	}
 	.aboutProgram h2
 	{
-		top: -1em;
-		position: relative;
+		    top: 0em;
+    position: relative;
+    line-height: 1em;
 	}
 	#progMod {
 		left: 0px !important;
@@ -5851,7 +5862,6 @@ position: absolute !important;
 	{
 		width: 100%;
 		height: 40em;
-		margin-top: 2em;
 	}
 }
 
@@ -6040,9 +6050,10 @@ position: absolute !important;
 	    width: 25em;
     /* height: auto; */
     position: relative;
-    left: 29%;
-    top: -6em;
+        left: 27em;
+    top: -12em;
 }
+
 .logoBottom img
 {
 	width: 100%;
@@ -6217,8 +6228,8 @@ position: absolute !important;
 
 	#banner .registerBtn {
 		    position: absolute;
-    top: 250%;
-    left: 0;
+    top: 580%;
+    left: 30%;
 	}
 	.aboutProgram h2
 {
@@ -6299,6 +6310,7 @@ position: absolute !important;
 	{
 		position: relative;
 		left: 10em;
+		top: -8em;
 	}
 }
 .swiper3
@@ -6627,6 +6639,8 @@ position: absolute !important;
 	{
 		color: #daefe3 !important;
 		font-weight: normal;
+		width: 15em;
+    	text-align: left;
 	}
 	#three {
 
@@ -6741,30 +6755,134 @@ position: absolute !important;
 
 /* The actual popup */
 .popup .popuptext {
-  visibility: hidden;
-  width: 30em;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 200;
-  /*bottom: 125%;*/
-  left: 50%;
-  margin-left: -80px;
+        visibility: hidden;
+    width: 200%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    opacity: 0.95;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;    z-index: 200;
+    /* bottom: 125%; */
+    font-size: 1.2em;
+    margin-left: -80px;
+    width: 35em;
+    height: auto;
+        padding-left: 2em;
+    padding-right: 2em;
+}
+#myPopup1
+{
+	position: absolute;
+	left: 20%;
+}
+#myPopup2
+{
+	position: absolute;
+	left: -50%;
+}
+#myPopup3
+{
+	position: absolute;
+	left: -50%;
+}
+#myPopup4
+{
+	position: absolute;
+	left: -50%;
+}
+#myPopup5
+{
+	position: absolute;
+	left: -130%;
+}
+@media screen and (max-width: 1280px)
+{
+	#myPopup5
+{
+	position: absolute;
+	left: 0%;
+}
+#myPopup4
+{
+	position: absolute;
+	left: -130%;
+}
+}
+@media screen and (max-width: 1063px)
+{
+	#myPopup4
+{
+	position: absolute;
+	left: 0%;
+}
+	#myPopup5
+{
+	position: absolute;
+	left: -50%;
+}
+}
+@media screen and (max-width: 980px)
+{
+	#myPopup1, #myPopup2, #myPopup3, #myPopup4, #myPopup5
+	{
+		    position: absolute;
+    left: 1.5%;
+    width: 120%;
+	}
+}
+@media screen and (max-width: 850px)
+{
+	#myPopup1, #myPopup2, #myPopup3, #myPopup4, #myPopup5
+	{
+		    position: absolute;
+    left: 4%;
+    width: 120%;
+	}
+}
+
+@media screen and (max-width: 736px)
+{
+	#myPopup1, #myPopup2, #myPopup3, #myPopup4, #myPopup5
+	{
+		    position: absolute;
+    left: 5.5%;
+    width: 120%;
+	}
+}
+
+@media screen and (max-width: 550px)
+{
+	#myPopup1, #myPopup2, #myPopup3, #myPopup4, #myPopup5
+	{
+		    position: absolute;
+    left: 10%;
+    width: 120%;
+	}
+}
+
+@media screen and (max-width: 550px)
+{
+	#myPopup1, #myPopup2, #myPopup3, #myPopup4, #myPopup5
+	{
+		    position: absolute;
+    left: 15%;
+    width: 120%;
+	}
 }
 
 /* Popup arrow */
 .popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: -2.3%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    transform: rotate(180deg);
 }
 
 /* Toggle this class - hide and show the popup */
@@ -6777,12 +6895,12 @@ position: absolute !important;
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
-  to {opacity: 1;}
+  to {opacity: 0.85;}
 }
 
 @keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity:1 ;}
+  to {opacity:0.85 ;}
 }
 .popuptext p
 {
@@ -6795,4 +6913,87 @@ position: absolute !important;
 		position: relative;
 		top: -1em;
 	}
+}
+@media screen and (max-width: 736px)
+{
+	.slideContainertop
+	{
+		margin-top: 6.5em;
+	}
+}
+@media screen and (max-width: 480px)
+{
+	.aboutProgram p {
+    top: -3.5em;
+	}
+	.separatorVertical
+	{
+		border-bottom: 0px !important;
+	}
+}
+@media screen and (max-width: 650px)
+{
+	.slideContainertop
+	{
+		margin-top: 4em;
+	}
+	#banner .registerBtn {
+    top: 550%;
+	}
+}
+@media screen and (max-width: 550px)
+{
+	.slideContainertop
+	{
+		margin-top: 0em;
+	}
+	#banner .registerBtn {
+    top: 500%;
+	}
+}
+@media screen and (max-width: 480px)
+{
+	.slideContainertop
+	{
+		margin-top: 4em;
+	}
+	#banner .registerBtn {
+    top: 470%;
+	}
+}
+@media screen and (max-width: 414px)
+{
+	.slideContainertop
+	{
+		margin-top: 2em;
+	}
+	#banner .registerBtn {
+    top: 430%;
+    left: 25%;
+	}
+}
+@media screen and (max-width: 340px)
+{
+	.slideContainertop
+	{
+		margin-top: 0em;
+	}
+	#banner .registerBtn {
+    top: 400%;
+    left: 20%;
+	}
+}
+.headbtn
+{
+	    width: 10em;
+    height: 3.5em;
+    border-radius: 3em;
+    letter-spacing: 0em;
+    padding: 0px;
+}
+select option
+{
+	color: black;
+	border: none;
+	border-bottom: 2px black;
 }
