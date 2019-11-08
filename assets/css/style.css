@@ -1987,7 +1987,7 @@
 		border-radius: 10px;
 		border: none;
 		border: solid 1px black;
-		color: #fff;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -3759,7 +3759,7 @@ footer a
 		.midPage {
 			width: 80em;
 			height: 58em;
-			background-image: url("../../images/Group690@2x.png");
+			background-image: url("../../images/Group690@2x-min.png");
 			background-size: 100%;
 			background-repeat: no-repeat;
 			background-position: right;
@@ -3877,7 +3877,7 @@ footer a
 		.innerMidPage {
 			width: 70%;
 			height: 55em;
-			background-image: url("../../images/ID5d836555bb767_A7_Rectangle_257_pattern.png");
+			background-image: url("../../images/ID5d836555bb767_A7_Rectangle_257_pattern@2x-min.png");
 			background-repeat: no-repeat;
 			background-size: 100%;
 			z-index: 1001;
@@ -5927,7 +5927,7 @@ position: absolute !important;
   transform-style: preserve-3d;
 }
 
-.flip-box:hover .flip {
+.flip-box:hover .flip, .flip-box:focus .flip {
   transform: rotateY(180deg);
 }
 

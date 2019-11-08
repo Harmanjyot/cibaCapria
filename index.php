@@ -574,7 +574,7 @@ INR 25,000*</h4><br><p style="position: relative;
           <div class="col-3 tabInstructors popup" onclick="myFunction3()">
           	
           	<!-- <h2> </h2> -->
-              <img src="images/saurabh_sinha.png">
+              <img src="images/saurabh_sinha-min.png">
               <footer>Saurabh Sinha</footer>
               <footer>CEO, Rein Labs</footer>
               <span class="popuptext" id="myPopup3">
@@ -1264,7 +1264,6 @@ function closeForm() {
       },
     });
 
-
   $(window).scroll(function () {
     var sc = $(window).scrollTop()
     if (sc > 75) {
@@ -1272,6 +1271,8 @@ function closeForm() {
     } else {
         $("#header").removeClass("small")
     }
+
+
 });
 
 
